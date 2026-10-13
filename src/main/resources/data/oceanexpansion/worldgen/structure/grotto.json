@@ -1,0 +1,106 @@
+{
+  "type": "oceanexpansion:site",
+  "biomes": "#oceanexpansion:has_site/grotto",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "anchor": "seabed",
+  "depth": {
+    "min": 6,
+    "max": 25
+  },
+  "flatness": 8,
+  "radius": 20,
+  "layouts": [
+    {
+      "weight": 1,
+      "pieces": [
+        {
+          "template": "oceanexpansion:grotto/cave",
+          "x": 0,
+          "z": 0,
+          "y": -9,
+          "turn": 0,
+          "mode": "rigid",
+          "footing": false,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:grotto/reef_a",
+          "x": -8,
+          "z": -19,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:grotto/reef_b",
+          "x": 8,
+          "z": -18,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:grotto/reef_b",
+          "x": -17,
+          "z": 5,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "pieces": [
+        {
+          "template": "oceanexpansion:grotto/cave",
+          "x": 0,
+          "z": 0,
+          "y": -9,
+          "turn": 0,
+          "mode": "rigid",
+          "footing": false,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:grotto/reef_b",
+          "x": -7,
+          "z": -18,
+          "y": -1,
+          "turn": 3,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:grotto/reef_a",
+          "x": 9,
+          "z": -19,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:grotto/reef_a",
+          "x": 17,
+          "z": 6,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        }
+      ]
+    }
+  ]
+}

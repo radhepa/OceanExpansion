@@ -1,0 +1,421 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "contraband_crate_cargo": "oceanexpansion:block/contraband_crate_cargo",
+    "contraband_crate_front": "oceanexpansion:block/contraband_crate_front",
+    "contraband_crate_lid": "oceanexpansion:block/contraband_crate_lid",
+    "contraband_crate_marked": "oceanexpansion:block/contraband_crate_marked",
+    "contraband_crate_rope": "oceanexpansion:block/contraband_crate_rope",
+    "contraband_crate_side": "oceanexpansion:block/contraband_crate_side",
+    "mc_spruce_planks": "minecraft:block/spruce_planks",
+    "particle": "oceanexpansion:block/contraband_crate_side"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        13,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            3,
+            15,
+            16
+          ],
+          "texture": "#contraband_crate_front"
+        },
+        "south": {
+          "uv": [
+            1,
+            3,
+            15,
+            16
+          ],
+          "texture": "#contraband_crate_side"
+        },
+        "east": {
+          "uv": [
+            1,
+            3,
+            15,
+            16
+          ],
+          "texture": "#contraband_crate_marked"
+        },
+        "west": {
+          "uv": [
+            1,
+            3,
+            15,
+            16
+          ],
+          "texture": "#contraband_crate_marked"
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#contraband_crate_lid"
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#mc_spruce_planks",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        0.5,
+        13,
+        0.5
+      ],
+      "to": [
+        15.5,
+        15,
+        15.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            1,
+            15,
+            3
+          ],
+          "texture": "#contraband_crate_side"
+        },
+        "south": {
+          "uv": [
+            0,
+            1,
+            15,
+            3
+          ],
+          "texture": "#contraband_crate_side"
+        },
+        "east": {
+          "uv": [
+            0,
+            1,
+            15,
+            3
+          ],
+          "texture": "#contraband_crate_side"
+        },
+        "west": {
+          "uv": [
+            0,
+            1,
+            15,
+            3
+          ],
+          "texture": "#contraband_crate_side"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            0.5,
+            15.5,
+            15.5
+          ],
+          "texture": "#contraband_crate_lid"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            0.5,
+            15.5,
+            15.5
+          ],
+          "texture": "#contraband_crate_lid"
+        }
+      }
+    },
+    {
+      "from": [
+        10,
+        0,
+        0.25
+      ],
+      "to": [
+        12,
+        15.25,
+        15.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            0.75,
+            6,
+            16
+          ],
+          "texture": "#contraband_crate_rope"
+        },
+        "south": {
+          "uv": [
+            10,
+            0.75,
+            12,
+            16
+          ],
+          "texture": "#contraband_crate_rope"
+        },
+        "up": {
+          "uv": [
+            10,
+            0.25,
+            12,
+            15.75
+          ],
+          "texture": "#contraband_crate_rope"
+        },
+        "east": {
+          "uv": [
+            0.25,
+            0.75,
+            15.75,
+            16
+          ],
+          "texture": "#contraband_crate_rope"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.75,
+            15.75,
+            16
+          ],
+          "texture": "#contraband_crate_rope"
+        }
+      }
+    },
+    {
+      "from": [
+        0.25,
+        0,
+        10
+      ],
+      "to": [
+        15.75,
+        15.25,
+        12
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            4,
+            0.75,
+            6,
+            16
+          ],
+          "texture": "#contraband_crate_rope"
+        },
+        "west": {
+          "uv": [
+            10,
+            0.75,
+            12,
+            16
+          ],
+          "texture": "#contraband_crate_rope"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            10,
+            15.75,
+            12
+          ],
+          "texture": "#contraband_crate_rope"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.75,
+            15.75,
+            16
+          ],
+          "texture": "#contraband_crate_rope"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.75,
+            15.75,
+            16
+          ],
+          "texture": "#contraband_crate_rope"
+        }
+      }
+    },
+    {
+      "from": [
+        9.5,
+        15.25,
+        9.5
+      ],
+      "to": [
+        12.5,
+        16,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            0,
+            6.5,
+            0.75
+          ],
+          "texture": "#contraband_crate_rope"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            0,
+            12.5,
+            0.75
+          ],
+          "texture": "#contraband_crate_rope"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            0,
+            6.5,
+            0.75
+          ],
+          "texture": "#contraband_crate_rope"
+        },
+        "west": {
+          "uv": [
+            9.5,
+            0,
+            12.5,
+            0.75
+          ],
+          "texture": "#contraband_crate_rope"
+        },
+        "up": {
+          "uv": [
+            9.5,
+            9.5,
+            12.5,
+            12.5
+          ],
+          "texture": "#contraband_crate_rope",
+          "cullface": "up"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        5,
+        -1
+      ],
+      "to": [
+        9,
+        9,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "texture": "#contraband_crate_cargo"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            6,
+            4
+          ],
+          "texture": "#contraband_crate_cargo"
+        },
+        "west": {
+          "uv": [
+            6,
+            0,
+            8,
+            4
+          ],
+          "texture": "#contraband_crate_cargo"
+        },
+        "up": {
+          "uv": [
+            8,
+            0,
+            12,
+            2
+          ],
+          "texture": "#contraband_crate_cargo"
+        },
+        "down": {
+          "uv": [
+            8,
+            2,
+            12,
+            4
+          ],
+          "texture": "#contraband_crate_cargo"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        1,
+        -0.75
+      ],
+      "to": [
+        9,
+        5,
+        -0.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            5,
+            4,
+            9
+          ],
+          "texture": "#contraband_crate_cargo"
+        },
+        "south": {
+          "uv": [
+            4,
+            5,
+            0,
+            9
+          ],
+          "texture": "#contraband_crate_cargo"
+        }
+      }
+    }
+  ]
+}

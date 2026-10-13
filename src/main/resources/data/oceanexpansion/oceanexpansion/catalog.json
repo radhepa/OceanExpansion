@@ -1,0 +1,440 @@
+{
+  "lighthouse": {
+    "name": "Lighthouse Isle",
+    "structure": "oceanexpansion:lighthouse",
+    "inhabited": true,
+    "anchor": "surface",
+    "depth": [
+      4,
+      20
+    ],
+    "biomes": [
+      "ocean",
+      "lukewarm_ocean",
+      "warm_ocean",
+      "cold_ocean"
+    ],
+    "residents": [
+      "lightkeeper"
+    ],
+    "loot": [
+      "oceanexpansion:chests/lighthouse/keeper",
+      "oceanexpansion:chests/lighthouse/stores"
+    ],
+    "haunts": [],
+    "books": [
+      "Lamp Log"
+    ],
+    "spawners": [],
+    "creatures": [
+      "minecraft:cat"
+    ],
+    "pieces": [
+      "lighthouse/isle"
+    ],
+    "features": [
+      "a rocky islet with cliffs, a pebble beach, tide pools, grass, a wind-bent pine and offshore skerries",
+      "a 30-block lighthouse banded white and red, a spiral stair inside, the watch room and the lamp room",
+      "the great light: sea lanterns in a glass lens, with the keeper's signal lamp beside it and a railed gallery",
+      "the keeper's cottage: hearth, bed, a half-eaten supper, fishing gear, the Lamp Log and the keeper's cat",
+      "a plank jetty on log piles with lanterns, a bell to ring for the keeper and a moored rowboat",
+      "a little walled garden, a woodpile and a rain barrel"
+    ]
+  },
+  "fort": {
+    "name": "Tidewatch Fort",
+    "structure": "oceanexpansion:fort",
+    "inhabited": true,
+    "anchor": "surface",
+    "depth": [
+      5,
+      18
+    ],
+    "biomes": [
+      "ocean",
+      "lukewarm_ocean",
+      "warm_ocean",
+      "cold_ocean"
+    ],
+    "residents": [
+      "captain",
+      "warden_archer",
+      "warden_archer",
+      "warden_knight",
+      "warden_knight"
+    ],
+    "loot": [
+      "oceanexpansion:chests/fort/armory",
+      "oceanexpansion:chests/fort/captain",
+      "oceanexpansion:chests/fort/stores"
+    ],
+    "haunts": [],
+    "books": [
+      "Tide Log"
+    ],
+    "spawners": [],
+    "creatures": [],
+    "pieces": [
+      "fort/fort"
+    ],
+    "features": [
+      "a stone sea fort on a reef: a battered curtain wall with crenellations and two round corner towers",
+      "a sea gate with a raised portcullis opening into an inner harbour with a pier and a moored rowboat",
+      "a three-storey keep: the mess and stores, the barracks (five bunks), the armory with training dummies and archery targets, and the captain's room with the Tide Log",
+      "the beacon brazier, an alarm bell and the Tidewatch flag on the keep roof; ballistae on the towers",
+      "a forge, a cistern, a supply cart, and the brig a smuggler broke out of"
+    ]
+  },
+  "galleon": {
+    "name": "The Sunken Galleon",
+    "structure": "oceanexpansion:galleon",
+    "inhabited": false,
+    "anchor": "seabed",
+    "depth": [
+      19,
+      40
+    ],
+    "biomes": [
+      "ocean",
+      "deep_ocean",
+      "lukewarm_ocean",
+      "deep_lukewarm_ocean",
+      "warm_ocean",
+      "cold_ocean",
+      "deep_cold_ocean"
+    ],
+    "residents": [],
+    "loot": [
+      "oceanexpansion:chests/galleon/captain",
+      "oceanexpansion:chests/galleon/cargo",
+      "oceanexpansion:chests/galleon/crew",
+      "oceanexpansion:chests/galleon/hold"
+    ],
+    "haunts": [
+      "drowned_captain",
+      "drowned_crew"
+    ],
+    "books": [
+      "Last Entry of the Golden Heron"
+    ],
+    "spawners": [],
+    "creatures": [],
+    "pieces": [
+      "galleon/bow",
+      "galleon/debris",
+      "galleon/foremast",
+      "galleon/mizzen",
+      "galleon/stern"
+    ],
+    "features": [
+      "the Golden Heron, a 44-block three-masted treasure galleon broken in two on the sea floor",
+      "the stern half upright and half buried: sterncastle, stern gallery and gilded transom",
+      "Captain Ysolde Marrow's cabin: her last log on a lectern, her chest, a fallen chandelier",
+      "the strongroom in the hold behind a bent iron grille: the Crown gold (the big prize)",
+      "the bow half rolled onto its side a little way off, with its heron figurehead and the galley",
+      "the main mast still standing with a torn sail; the fore and mizzen masts fallen across the sand",
+      "a debris field of spilled cargo and the ship's anchor",
+      "barnacles, kelp, coral and sand drifts; the drowned captain on her deck and her crew in the hold"
+    ]
+  },
+  "whale": {
+    "name": "The Whalefall",
+    "structure": "oceanexpansion:whale",
+    "inhabited": false,
+    "anchor": "seabed",
+    "depth": [
+      15,
+      50
+    ],
+    "biomes": [
+      "ocean",
+      "deep_ocean",
+      "cold_ocean",
+      "deep_cold_ocean",
+      "lukewarm_ocean",
+      "deep_lukewarm_ocean"
+    ],
+    "residents": [],
+    "loot": [
+      "oceanexpansion:chests/whale/bones",
+      "oceanexpansion:chests/whale/drift"
+    ],
+    "haunts": [],
+    "books": [],
+    "spawners": [],
+    "creatures": [
+      "minecraft:glow_squid",
+      "minecraft:tropical_fish"
+    ],
+    "pieces": [
+      "whale/halo",
+      "whale/skeleton",
+      "whale/skeleton_turned",
+      "whale/strays"
+    ],
+    "features": [
+      "the bones of a colossal whale (about 45 blocks long) on the deep sea floor: a great skull with its jaws agape, a curving spine, high arching ribs (some broken and fallen), long flippers and tail flukes",
+      "a reef growing on the bones: bone-eating red tube worms, coral fans, glow lichen, sea pickles, kelp and seagrass",
+      "clay pots in the skull and the old belly hold ambergris; an old harpoon hangs in the skull",
+      "a lost diver: skull, rusted helmet, cut lifeline, kit chest and a last note",
+      "tropical fish and a glow squid live in the ribs"
+    ]
+  },
+  "temple": {
+    "name": "The Drowned Sanctum",
+    "structure": "oceanexpansion:temple",
+    "inhabited": false,
+    "anchor": "seabed",
+    "depth": [
+      20,
+      45
+    ],
+    "biomes": [
+      "warm_ocean",
+      "lukewarm_ocean",
+      "deep_lukewarm_ocean",
+      "ocean",
+      "deep_ocean"
+    ],
+    "residents": [],
+    "loot": [
+      "oceanexpansion:chests/temple/altar",
+      "oceanexpansion:chests/temple/offering"
+    ],
+    "haunts": [
+      "guardians"
+    ],
+    "books": [],
+    "spawners": [],
+    "creatures": [
+      "minecraft:tropical_fish"
+    ],
+    "pieces": [
+      "temple/colonnade",
+      "temple/obelisk",
+      "temple/sanctum"
+    ],
+    "features": [
+      "a pylon facade half sunk in the sand; over the half-buried great door, the great carved eye of the Old Tide (dark prismarine ring, sea lantern iris, black pupil)",
+      "a flooded nave of stone columns and prismarine arches with side aisles; the roof fallen in, one column toppled across the floor",
+      "three guardians wake in the nave",
+      "a grand stair down into the sunken sanctum: the altar with the Old Tide trident relic and the altar chest beneath it, watched by a second great eye",
+      "offering niches with Old Tide pots in the aisles and in the sanctum walls",
+      "a sealed reliquary behind the dark sanctum wall, reached only through a crack beside the altar: sherd pots, an inscription, a thief who never left",
+      "sand drifting in through the door; coral and kelp reclaiming the breached east gallery",
+      "outside: a fallen colonnade of the outer precinct and a leaning eye obelisk with its tip in the sand"
+    ]
+  },
+  "grotto": {
+    "name": "The Pearl Grotto",
+    "structure": "oceanexpansion:grotto",
+    "inhabited": false,
+    "anchor": "seabed",
+    "depth": [
+      6,
+      25
+    ],
+    "biomes": [
+      "warm_ocean",
+      "lukewarm_ocean",
+      "ocean"
+    ],
+    "residents": [],
+    "loot": [
+      "oceanexpansion:chests/grotto/camp",
+      "oceanexpansion:chests/grotto/hoard"
+    ],
+    "haunts": [],
+    "books": [
+      "Pearling Book"
+    ],
+    "spawners": [],
+    "creatures": [
+      "minecraft:nautilus",
+      "minecraft:tropical_fish"
+    ],
+    "pieces": [
+      "grotto/cave",
+      "grotto/reef_a",
+      "grotto/reef_b"
+    ],
+    "features": [
+      "a domed sea cave half sunk into the floor, lined with glow lichen and sea-glass crystals, entered by a tunnel from a coral reef",
+      "giant clams with pearls on a sandy floor, sea pickles everywhere, coral and swaying kelp",
+      "the pearl divers' camp up in a dry air pocket in the dome: plank ledge, bed, lantern, a tally of pearls and the Pearling Book; swim up through the hole in the ledge to breathe",
+      "the divers' hoard, buried under the sand where three little lights sit in a row"
+    ]
+  },
+  "bell": {
+    "name": "Wexley's Diving Bell",
+    "structure": "oceanexpansion:bell",
+    "inhabited": false,
+    "anchor": "seabed",
+    "depth": [
+      10,
+      30
+    ],
+    "biomes": [
+      "ocean",
+      "lukewarm_ocean",
+      "warm_ocean",
+      "cold_ocean"
+    ],
+    "residents": [],
+    "loot": [
+      "oceanexpansion:chests/bell/barge",
+      "oceanexpansion:chests/bell/bell",
+      "oceanexpansion:chests/bell/salvage"
+    ],
+    "haunts": [
+      "drowned_crew"
+    ],
+    "books": [
+      "Wexley's Dive Book"
+    ],
+    "spawners": [],
+    "creatures": [],
+    "pieces": [
+      "bell/barge",
+      "bell/bell",
+      "bell/salvage"
+    ],
+    "features": [
+      "Wexley's salvage barge at the surface: a winch and shear-leg crane, his hut and his Dive Book",
+      "a chain from the crane straight down to the copper diving bell on the sea floor",
+      "inside the bell a real air pocket: a bench, a lantern, \"AIR. Breathe slow.\" and the diving helmet",
+      "salvage scattered around the bell: crates, a toppled cart of ingots, a broken second helmet",
+      "the crew of the last dive, drowned beside the bell"
+    ]
+  },
+  "smugglers": {
+    "name": "Smugglers' Rock",
+    "structure": "oceanexpansion:smugglers",
+    "inhabited": true,
+    "anchor": "surface",
+    "depth": [
+      6,
+      20
+    ],
+    "biomes": [
+      "ocean",
+      "lukewarm_ocean",
+      "warm_ocean",
+      "cold_ocean"
+    ],
+    "residents": [
+      "smuggler",
+      "smuggler",
+      "smuggler",
+      "smuggler_boss"
+    ],
+    "loot": [
+      "oceanexpansion:chests/smugglers/boss",
+      "oceanexpansion:chests/smugglers/cache",
+      "oceanexpansion:chests/smugglers/stores"
+    ],
+    "haunts": [],
+    "books": [
+      "No Names on the Water"
+    ],
+    "spawners": [],
+    "creatures": [],
+    "pieces": [
+      "smugglers/rock"
+    ],
+    "features": [
+      "a tall sea stack with banded rock, ledges, a wave-cut notch, gull nests and bushes on its crown",
+      "a sea arch into a hidden cove: a plank dock, a moored sloop with its sail furled, and a storage loft with a hoist",
+      "contraband everywhere: spice, silk, pearls and powder in crates and barrels; a stash hidden under the dock",
+      "tunnels up to the bunk room, a switchback stair to the chief's den with the ledger \"No Names on the Water\"",
+      "a rope-ladder chimney to the lookout on the summit, with a signal lantern and a spyglass"
+    ]
+  },
+  "iceberg": {
+    "name": "The Frozen Hold",
+    "structure": "oceanexpansion:iceberg",
+    "inhabited": false,
+    "anchor": "surface",
+    "depth": [
+      10,
+      40
+    ],
+    "biomes": [
+      "frozen_ocean",
+      "deep_frozen_ocean",
+      "cold_ocean",
+      "deep_cold_ocean"
+    ],
+    "residents": [],
+    "loot": [
+      "oceanexpansion:chests/iceberg/captain",
+      "oceanexpansion:chests/iceberg/crew",
+      "oceanexpansion:chests/iceberg/hold"
+    ],
+    "haunts": [
+      "frozen_crew"
+    ],
+    "books": [
+      "Log of the Northward"
+    ],
+    "spawners": [],
+    "creatures": [],
+    "pieces": [
+      "iceberg/berg",
+      "iceberg/floe",
+      "iceberg/growler"
+    ],
+    "features": [
+      "a huge iceberg of packed and blue ice, snow-capped, with powder-snow cracks on top",
+      "the Northward locked in the ice at the waterline: her bow, bowsprit and bear figurehead jut from one face, two frozen masts with a yard and a stiff torn sail from the top",
+      "a crevasse climbs from the sea into an ice vault over her deck",
+      "below deck, dry and frozen: the crew's bunks and their last meal, the hold, the captain's cabin",
+      "Captain Arvid Strand's log, which ends mid-sentence; the frozen crew below deck",
+      "a drifting floe with the boat two of the crew tried to sail south in"
+    ]
+  },
+  "vents": {
+    "name": "The Ember Vents",
+    "structure": "oceanexpansion:vents",
+    "inhabited": false,
+    "anchor": "seabed",
+    "depth": [
+      22,
+      60
+    ],
+    "biomes": [
+      "deep_ocean",
+      "deep_lukewarm_ocean",
+      "deep_cold_ocean"
+    ],
+    "residents": [],
+    "loot": [
+      "oceanexpansion:chests/vents/cache",
+      "oceanexpansion:chests/vents/shrine"
+    ],
+    "haunts": [
+      "deep_lurkers"
+    ],
+    "books": [],
+    "spawners": [],
+    "creatures": [
+      "minecraft:glow_squid"
+    ],
+    "pieces": [
+      "vents/chimney_plume",
+      "vents/chimney_squat",
+      "vents/chimney_tall",
+      "vents/chimney_twin",
+      "vents/field",
+      "vents/shrine",
+      "vents/spires"
+    ],
+    "features": [
+      "a field of hydrothermal chimneys (10 to 19 blocks tall) of basalt, blackstone, tuff and glowing magma veins on the deep sea floor, flecked with gilded blackstone",
+      "magma mouths drag the water down in whirling bubble columns; one old vent breathes out instead (a rising column where a diver can catch their breath)",
+      "red tube worms, glow lichen and dead coral crowd around the chimneys",
+      "an Old Tide fire-shrine: a dark prismarine and blackstone platform, broken columns, a great one-eyed carving whose pupil still burns, magma braziers, an altar chest of black pearls and offering pots",
+      "deep lurkers rise when you come near the shrine; a glow squid drifts between the chimneys"
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+# Captain: commands a Tidewatch sea fort ({place}) and keeps its Tide Log. One per fort; all captains share
+# this file. Voice: dry, formal, weary, fond of the wardens, carries the worry so others can sleep. Never a
+# pronoun for the captain. Never use {captain} here (a captain has no captain neighbour); use {name}.
+#
+# Falls back to warden.txt for every pool not defined here (greet.morning/evening/night, adventure, rumor,
+# rumor.none, seafolk, most held.* and player.*). A pool defined here REPLACES the warden's, so each one
+# below carries enough lines to stand on its own.
+#
+# Canon is in lightkeeper.txt / warden.txt (shared). The captain's own:
+# - Fort Hake has won the Lantern Shoot eleven years running; the captain has written a letter about it and
+#   not sent it. Fort Hake sent congratulations on second place (kept, for kindling).
+# - The oldest Tide Log: "Green sky. Great ship lost." The next captain added a fifth word in the margin: "Why?"
+# - Signed Bartholomew Wexley's salvage permit; Wexley smelled of copper and lamp oil and promised a souvenir.
+# - Has chased the Maybe since being a warden; the Brotherhood once left a note on the fort's boat: "Thanks for
+#   the light. Maybe." (framed, secretly).
+# - The High Warden's letters say "keep vigilant"; the captain writes back "kept."
+# - Keeps a spare blue cord in the desk for someone unsworn who deserves it.
+# - Worry list: storms, raiders, drowned, smugglers, the soup.
+
+## captain.greet
+Welcome to {place}. I'm Captain {name}. The fort is yours to walk, within reason, and the reason is mine.
+Ah. A visitor. Stand easy; nobody here bites, except the cat.
+A fine {time} to you. The wall's manned, the brazier's stacked and the sea's behaving. For now.
+You've come to my fort, {player}. Welcome. Mind the sea steps; the Tide Log is full of people who didn't.
+Captain {name}, of the Tidewatch. We keep the light. What can the fort do for you?
+At ease. Not you; I meant the archers. They've had you in their sights since the reef.
+Welcome aboard. Ashore, I mean. On bad days I think of the fort as a ship that never sails.
+Hello, {player}. If you've news from the sea, I'll write it in the Tide Log. If you've complaints, I'll write those in a smaller hand.
+Come in out of the spray. A captain's first duty is keeping people dry. The second is keeping them alive. The order changes in winter.
+Welcome to {place}, the finest fort on this stretch of coast, whatever Fort Hake tells you.
+Good to see you. Sit, if you like. I've stood on that wall since dawn and I'm enjoying the idea of chairs.
+Greetings. Forgive me if I keep one eye on the water while we talk. It's a habit. It's also the job.
+
+## captain.greet.stranger
+I don't know you. That's no crime, but I'll have your name for the Tide Log all the same.
+A stranger at my sea gate. The wardens will have told me about you before you'd finished tying up.
+State your business, traveller. Politely. I'm in a good mood, and I'd like to stay in it.
+You're not Tidewatch and you're not a fisher. That leaves trader, traveller or Briner. I'll assume one of the first two.
+Welcome, stranger. This fort shelters anyone the sea throws at it. Behave, and you'll find us good hosts.
+
+## captain.greet.friend
+{player}. Good. The fort is always steadier when you're about.
+Friend of the fort, welcome back. Your name's in the Tide Log with a mark beside it. The good kind of mark.
+There you are. My wardens have been asking after you. I pretended not to care. I did care.
+Ah, {player}. Come up to the keep. I'll pour you something better than the mess serves.
+Back safe. That's all I ask of anyone who sails from my wall.
+My favourite visitor. Don't repeat that; I'm meant to be impartial.
+
+## captain.chat.new
+This is {place}, a fort of the Tidewatch. We guard this coast from drowned, raiders and storms, and we keep the Tide Log of all three.
+I'm Captain {name}. The wardens answer to me, and I answer to the sea, which never answers anyone.
+You may stay within the walls. Don't touch the brazier, don't feed the cat at the table, and don't trust a calm evening.
+If you've come to report a wreck, a raider or a smuggler, you've found the right captain. If it's about the soup, I already know.
+
+## captain.chat
+The Tide Log is mine to keep: every tide, every sail, every drowned. A fort that forgets what the sea did will be surprised by it.
+We keep the light. I say it every evening when the brazier's checked. It isn't a prayer. It's a promise.
+My wardens are good. Salt-cured, underfed and good. I'd stand any of them against the sea.
+Corwen kept a driftwood fire alive on a bare rock for three nights. Every captain since has wondered whether they'd have lasted the second night.
+Fort Hake has won the Lantern Shoot eleven years running. I've written a letter about it. I haven't sent it. I'm told that's maturity.
+Every time we hail the Brotherhood's sloop, someone calls back "Maybe," and every time, my wardens laugh. I've stopped logging the laughter.
+The smugglers call us the Candles. I've chosen to take it as a compliment. Candles are steady, and they don't go out easily.
+A captain's job is mostly worrying. About tides, about storms, about whether the cook has found a new way to ruin fish.
+The cat outranks two of my wardens in the Tide Log. Barnacle caught more drowned rats than they caught drowned. Fair is fair.
+I read the old Tide Logs at night. The handwriting changes every few dozen pages: a new captain. The sea never changes.
+When a lighthouse goes dark, every fort on the coast lights its brazier. I've seen the chain of fires once. I don't want to see it again.
+Rank means I get the room with a window. The window faces the sea. Of course it does. Everything here faces the sea.
+The High Warden writes once a season: "Keep vigilant." I write back: "Kept." It's a short correspondence.
+I respect the lighthouse keepers. One person, one light, every night. I have four wardens and I still lose sleep.
+I've ordered the portcullis oiled six times this spring. It still screams. I've begun to think it simply has opinions.
+Smugglers are a nuisance, not an enemy. Raiders are an enemy. The sea is neither. The sea is just the sea.
+Storms first, raiders second, drowned third, smugglers fourth, the soup fifth. That's the list I worry from.
+The wall was here before me and it'll be here after. My job is to hand it on with fewer cracks than I found.
+I've never caught the Maybe. Some nights I suspect I'd be disappointed if I did.
+
+## captain.chat.close
+You've a place here, {player}. If you ever tire of the open sea, the Tidewatch could use someone with your nerve.
+I'll tell you what I don't tell the wardens: I'm afraid of every storm. The trick is to be afraid on the inside.
+If you're ever lost at sea, steer for a light. If it's one of ours, I'll see that it's lit.
+I keep a blue cord in my desk for the day someone unsworn deserves one. Here. Don't make me regret the paperwork.
+
+## captain.past
+I swam the gate the night I was sworn, like every warden. Slowest in my year. I'm still here. Several of the fast ones aren't.
+I held this wall through the Three-Day Blow. By the third night we were feeding the brazier with the furniture. I still miss that chair.
+Before I had a fort of my own, I served under a captain who could smell a storm a day away. I've tried to learn the trick. I can smell soup a day away. It's not the same.
+Our oldest Tide Log gives the Heron Gale four words: "Green sky. Great ship lost." The next captain added a fifth in the margin: "Why?"
+I signed Bartholomew Wexley's salvage permit myself. Pleasant fellow; smelled of copper and lamp oil. Promised me a souvenir from the deep. Never came back.
+I've chased the Maybe since I was a warden. I knew its sail in the dark before I knew my own captain's face.
+There was a raid in my first year in command. Longboats, moonless night. Nobody died. I wrote that in the Tide Log in the largest letters I've ever used.
+I walked the bay the winter it froze, roped to my wardens. Halfway to the reef, the ice sang. We walked back much faster.
+I was given this command on a Tuesday. On Wednesday the brazier chimney fell off. I took it personally for about a year.
+
+## captain.night
+I take the late watch from the keep. A captain should see the dark at its worst at least once a night.
+Listen. The sea at night sounds like breathing. When it holds its breath, I ring the bell.
+Some nights there's a gold glow far out under the water. The old logs call it the Heron's lamp. I write "a light, unknown" and leave it there.
+The wardens think I never sleep. I do. Standing up, in the keep, eyes open. It's a captain's skill.
+
+## captain.work
+I inspect the fort every morning: wall, gate, boat, brazier, armoury, wardens. In that order, except when it's the wardens first.
+The Tide Log is written every tide: time, height, wind, sails, drowned. I sign each entry. Some days that's the most important thing I do.
+I set the watches: who's on the wall, who's in the boat, who sleeps. Sleep is the one they argue about.
+When the storm glass clouds, I order the boat inside the gate and the brazier stacked. When it feathers, I order everyone to pray quietly.
+Training never stops. Knights at the dummies, archers at the targets. A warden who's stopped drilling has started forgetting.
+Reports from the lights, letters from the High Warden, complaints from the cook. My desk is a small sea of its own.
+Every crate the sea throws at the wall is logged, opened and listed. Smugglers' cargo goes in the store. Smugglers' notes go in the fire, after I've read them.
+I check the archers' strings and the knights' straps myself. A warden lost to a frayed strap is a captain's fault.
+When a lighthouse flashes red, the boat is out within a count of a hundred. I've timed it. We've done it in sixty.
+I keep a chart of every drowned sighting on this stretch of coast. They come up in patterns, and patterns can be watched.
+Half of command is deciding what to worry about. The other half is pretending you aren't worried at all.
+
+## captain.joke
+I asked the cook what's in the soup. The cook said, "The sea." I've stopped asking.
+A warden asked me for a day's leave. I asked, "Where would you go?" They looked at the sea for a long while, then went back on watch.
+Fort Hake sent a letter congratulating us on second place. I'm keeping it. For kindling.
+How do you tell a captain from a warden? Same soup, nicer spoon.
+I logged the cat's crab as "a capture." The High Warden wrote back asking for the prisoner's name.
+The Brotherhood once left a note on our boat: "Thanks for the light. Maybe." I had it framed. Tell no one.
+Every captain is promised the fort will run itself one day. Every captain is still waiting.
+
+## captain.news
+The storm glass has feathered. Storm by tomorrow night. I've ordered everything lashed down, including the cook's temper.
+A patrol found a crate of silk bobbing off the reef. Some Briners lost a cargo. I'm told it's very good silk. It's evidence.
+Two drowned on the sea steps last night, both sent back. My wardens did well. It's in the Tide Log, with their names.
+A letter from the High Warden: keep vigilant. A letter from Fort Hake: practising for the Shoot. I know which worries me more.
+Longboats seen at the edge of sight yesterday, gone by dark. I've doubled the wall watch till the moon's up.
+The boat's been patched again. It's more patch than boat. I've requested a new one. I've been requesting one for four years.
+
+## captain.heart
+Every name in the back of the Tide Log, I knew. I read them on the longest night. Then I go up on the wall and do my job.
+People think command is giving orders. It's mostly carrying the worry so the others can sleep.
+Someone kept a light for me once, on a night I was sure was my last. I never learned who. I've kept lights ever since.
+My wardens are my responsibility and my family. Don't tell them; they'll ask for better soup.
+When the sun comes up after a bad night and all five of us are on the wall, I don't say anything. I just look at them. That's my prayer.
+I'd rather this fort be dull for a hundred years than glorious for one night. Dull means everyone's alive.
+We keep the light. I didn't understand it as a recruit. I do now. You keep it for strangers, and you keep it for each other.
+
+## captain.held.sword
+A fine blade. If you'd like to spar, my knights will oblige. Gladly. Too gladly.
+Keep that oiled. I've lost more swords to rust than to the drowned.
+
+## captain.held.spyglass
+A spyglass. May I? Ah. Yes. That's the Maybe's sail, out past the point. Of course it is.
+I'd trade my second-best cloak for a glass like that. My best cloak stays.
+
+## captain.player.hurt
+You're hurt. Sit down. That's an order, and I'm the only one here allowed to give them.
+Drowned? Raiders? Rocks? Tell me while the wardens fetch bandages. It goes in the Tide Log either way.

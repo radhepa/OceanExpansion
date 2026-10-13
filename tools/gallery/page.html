@@ -1,0 +1,184 @@
+<title>Cave Expansion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a descent. A depth gauge (Minecraft y-levels) runs down the left; the delves follow it, shallowest first. */
+:root {
+  --ground: #e8eaee; --rock: #d6d9df; --ink: #1c2027; --muted: #545b67; --line: #b9bec8;
+  --lamp: #a0570a; --lamp-soft: #f3dfc2; --copper: #9a4f33; --moss: #3f6b3a; --blood: #8d2f2f;
+  --display: "IM Fell English SC", "Iowan Old Style", Georgia, serif;
+  --body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --ground: #16181d; --rock: #20232a; --ink: #e4e6ea; --muted: #9aa1ad; --line: #353a44;
+  --lamp: #f0a43c; --lamp-soft: #3a2a14; --copper: #d98a64; --moss: #8fbf7f; --blood: #e08a8a; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --ground: #16181d; --rock: #20232a; --ink: #e4e6ea; --muted: #9aa1ad; --line: #353a44;
+  --lamp: #f0a43c; --lamp-soft: #3a2a14; --copper: #d98a64; --moss: #8fbf7f; --blood: #e08a8a; color-scheme: dark }
+
+* { box-sizing: border-box; }
+body { background: var(--ground); color: var(--ink); font: 16px/1.6 var(--body); margin: 0; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 80px;
+        display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 40px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; text-wrap: balance; margin: 0; }
+p { margin: 0; }
+.hero { grid-column: 1 / -1; display: grid; gap: 14px; max-width: 760px; }
+.hero h1 { font-size: clamp(48px, 9vw, 92px); line-height: .95; letter-spacing: .01em; }
+.hero h1 span { color: var(--lamp); }
+.hero .lede { font-size: 19px; color: var(--muted); max-width: 62ch; }
+.facts { display: flex; flex-wrap: wrap; gap: 10px 28px; margin-top: 6px; font-family: var(--mono); font-size: 13px; color: var(--muted); }
+.facts b { color: var(--ink); font-weight: 600; font-size: 15px; }
+
+/* the depth gauge */
+.gauge { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 24px); align-self: start; height: min(78vh, 720px); }
+.gauge .shaft { position: absolute; left: 34px; top: 0; bottom: 0; width: 4px; border-radius: 2px;
+  background: linear-gradient(var(--line) 0 40%, var(--muted) 52%, var(--ink) 100%); opacity: .55; }
+.gauge .tick { position: absolute; left: 0; width: 120px; font: 11px/1 var(--mono); color: var(--muted); display: flex; align-items: center; gap: 8px; transform: translateY(-50%); }
+.gauge .tick::before { content: ""; width: 28px; height: 1px; background: var(--line); }
+.gauge .tick.slate { color: var(--ink); }
+.gauge a.stop { position: absolute; left: 26px; transform: translateY(-50%); display: flex; align-items: center; gap: 8px; text-decoration: none;
+  font: 12px/1.2 var(--body); color: var(--ink); white-space: nowrap; }
+.gauge a.stop i { width: 20px; height: 20px; border-radius: 50%; background: var(--ground); border: 3px solid var(--lamp); flex: none; }
+.gauge a.stop:hover i, .gauge a.stop:focus-visible i { background: var(--lamp); }
+.gauge a.stop span { background: var(--ground); padding-right: 4px; }
+
+main { display: grid; gap: 72px; min-width: 0; }
+.delve { display: grid; gap: 16px; scroll-margin-top: 24px; }
+.delve header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 16px; }
+.delve h2 { font-size: clamp(30px, 4.4vw, 44px); line-height: 1.05; }
+.mark { width: 14px; height: 14px; border-radius: 50%; background: var(--lamp); box-shadow: 0 0 0 5px var(--lamp-soft); align-self: center; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font: 12px/1 var(--mono); padding: 6px 9px; border-radius: 3px; border: 1px solid var(--line); color: var(--muted); }
+.chip.depth { color: var(--ink); border-color: var(--ink); }
+.chip.lived { color: var(--moss); border-color: var(--moss); }
+.chip.wild { color: var(--blood); border-color: var(--blood); }
+.blurb { max-width: 68ch; font-size: 17px; }
+blockquote { margin: 0; padding: 4px 0 4px 18px; border-left: 3px solid var(--copper); max-width: 64ch; }
+blockquote p { font-style: italic; }
+blockquote cite { display: block; font-style: normal; font-size: 13px; color: var(--muted); margin-top: 4px; }
+.figs { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 12px; }
+figure { margin: 0; display: grid; gap: 6px; min-width: 0; }
+figure img { width: 100%; height: auto; display: block; border-radius: 4px; border: 1px solid var(--line); background: var(--rock); }
+figure.cut { grid-column: 1 / -1; }
+figure.cut img { background: #22252b; }
+figcaption { font-size: 13px; color: var(--muted); }
+
+.panel { display: grid; gap: 18px; padding-top: 36px; border-top: 1px solid var(--line); }
+.panel h2 { font-size: clamp(28px, 4vw, 38px); }
+.panel > p { max-width: 68ch; }
+.bars { display: grid; gap: 8px; max-width: 640px; }
+.bar { display: grid; grid-template-columns: 170px minmax(0, 1fr) 32px; gap: 12px; align-items: center; font-size: 14px; }
+.bar .track { height: 12px; background: var(--rock); border-radius: 2px; overflow: hidden; }
+.bar .fill { display: block; height: 100%; background: var(--lamp); }
+.bar .n { font: 13px var(--mono); font-variant-numeric: tabular-nums; text-align: right; }
+.quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 20px 32px; }
+ul.pack { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 72ch; }
+.cmds { display: grid; gap: 8px; }
+.cmd { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.cmd code { font: 14px var(--mono); background: var(--rock); padding: 8px 10px; border-radius: 3px; overflow-x: auto; max-width: 100%; }
+.cmd button { font: 12px var(--body); color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 3px; padding: 6px 10px; cursor: pointer; }
+.cmd button:hover, .cmd button:focus-visible { border-color: var(--lamp); color: var(--lamp); }
+.table-art img { max-width: 720px; width: 100%; border-radius: 4px; border: 1px solid var(--line); }
+
+@media (max-width: 760px) {
+  .wrap { grid-template-columns: minmax(0, 1fr); padding-inline: 16px; gap: 28px; }
+  .gauge { display: none; }
+  .bar { grid-template-columns: 120px minmax(0, 1fr) 28px; }
+}
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Cave <span>Expansion</span></h1>
+    <p class="lede">Eight rare places in the rock, for the Village Friends modpack. You break into them strip-mining or stumble on them caving: a working camp of the Delvers' Guild, a Deepwatch garrison holding a cave road, a hermit's mushroom hollow, and the lost works of the Old Delvers.</p>
+    <div class="facts"><span><b>8</b> delves</span><span><b>3</b> lived in</span><span>about <b>1</b> per <b>{{PER}}</b> &times; <b>{{PER}}</b> blocks</span><span><b>{{LINES}}</b> lines of dialogue</span><span>tested with every mod in the pack</span></div>
+  </div>
+
+  <nav class="gauge" aria-label="Depth gauge">
+    <div class="shaft"></div>
+  </nav>
+
+  <main>
+    {{SECTIONS}}
+
+    <section class="panel" id="rare">
+      <h2>How rare they are</h2>
+      <p>In the test world the game made every placement cell in a block of {{CELLS}} cells around spawn (about 4,300 blocks square). <b>{{FOUND}}</b> of them grew a delve, about one per {{PER}} &times; {{PER}} blocks. A delve always touches a cave somewhere and sits mostly in solid rock, so cavers and strip-miners both find them. <code>config/caveexpansion.json</code> sets <code>"rarity"</code>: 2.0 means half as many along each side.</p>
+      <div class="bars">{{BARS}}</div>
+    </section>
+
+    <section class="panel" id="people">
+      <h2>The people below</h2>
+      <p>The miners, the Deepwatch and the hermit are Village Friends residents with their own day underground (no tavern, no bell, no weather; the garrison keeps a night watch) and their own lines. Ask them for news and they tell you which way the nearest other delve lies and roughly how far. Miners are a new profession whose job site is the Prospecting Table.</p>
+      <div class="quotes">{{SAMPLE}}</div>
+      <figure class="table-art"><img src="{{TABLE}}" alt="The Prospecting Table from several angles beside vanilla's smithing and fletching tables"><figcaption>The Prospecting Table, the miner's job site, next to vanilla's smithing and fletching tables.</figcaption></figure>
+    </section>
+
+    <section class="panel" id="pack">
+      <h2>Plays well with the pack</h2>
+      <ul class="pack">
+        <li>Needs Village Friends 2.28 or newer.</li>
+        <li><b>The Plata Clan:</b> delves never generate within 3 chunks of a Scale Den or 5 chunks of a Silver Warren. Miners have heard stories of the silver folk.</li>
+        <li>Also keeps clear of villages, homesteads, trial chambers, ancient cities, strongholds and ocean monuments; never in the Deep Dark.</li>
+        <li><b>Not-So-Vanilla Mobs:</b> its Lost Miners, Gravewarden and Soulpyres guard the delves when installed.</li>
+        <li>Game test run with: {{MODS}}.</li>
+      </ul>
+    </section>
+
+    <section class="panel" id="find">
+      <h2>Find one</h2>
+      <div class="cmds">
+        <div class="cmd"><code>/locate structure caveexpansion:camp</code><button type="button">Copy</button></div>
+        <div class="cmd"><code>/locate structure caveexpansion:post</code><button type="button">Copy</button></div>
+        <div class="cmd"><code>/locate structure caveexpansion:forge</code><button type="button">Copy</button></div>
+      </div>
+      <p>The others: <code>seam</code>, <code>cistern</code>, <code>hermit</code>, <code>grotto</code>, <code>ossuary</code>.</p>
+    </section>
+  </main>
+</div>
+
+<script>
+(() => {
+  const gauge = document.querySelector('.gauge');
+  const top = 56, bottom = -64, span = top - bottom;
+  const pct = y => ((top - y) / span * 100).toFixed(2) + '%';
+  for (const [y, label, cls] of [[40, 'y 40', ''], [0, 'y 0  deepslate', 'slate'], [-40, 'y -40', ''], [-64, 'bedrock', '']]) {
+    const t = document.createElement('div');
+    t.className = 'tick ' + cls; t.style.top = pct(y); t.textContent = label;
+    gauge.appendChild(t);
+  }
+  const stops = [];
+  for (const s of document.querySelectorAll('section.delve')) {
+    const a = document.createElement('a');
+    a.className = 'stop'; a.href = '#' + s.id;
+    a.innerHTML = '<i></i><span></span>';
+    a.querySelector('span').textContent = s.querySelector('h2').textContent;
+    gauge.appendChild(a);
+    stops.push([Number(s.dataset.y) + 8, a]);
+  }
+  // each stop at its delve's depth, nudged down so labels never overlap
+  const place = () => {
+    const h = gauge.clientHeight || 600;
+    let last = -Infinity;
+    for (const [y, a] of stops.sort((p, q) => q[0] - p[0])) {
+      const px = Math.max((top - y) / span * h, last + 28);
+      a.style.top = px + 'px';
+      last = px;
+    }
+  };
+  place();
+  addEventListener('resize', place);
+  for (const b of document.querySelectorAll('.cmd button')) {
+    b.addEventListener('click', () => {
+      const code = b.previousElementSibling;
+      navigator.clipboard.writeText(code.textContent).then(() => { b.textContent = 'Copied'; },
+        () => { const r = document.createRange(); r.selectNodeContents(code); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selected'; });
+      setTimeout(() => { b.textContent = 'Copy'; }, 1600);
+    });
+  }
+})();
+</script>

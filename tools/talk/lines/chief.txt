@@ -1,0 +1,149 @@
+# Chief: heads the Brine Brotherhood cell of a hollow sea stack ({place}; may start with a lowercase "the").
+# One per rock; all chiefs share this file. Voice: smooth, courteous, meticulous, a keeper of sums and rules,
+# protective of the crew, never cruel. Never a pronoun for the chief. Never use {chief} here (a chief has no
+# chief neighbour); use {name}.
+#
+# Falls back to smuggler.txt for every pool not defined here (greet.morning/evening/night, adventure, rumor,
+# rumor.none, seafolk, most held.*, all player.*). A pool defined here REPLACES the smuggler's, so each one
+# below carries enough lines to stand on its own.
+#
+# Canon is in lightkeeper.txt / smuggler.txt (shared). The chief's own:
+# - The ledger "No Names on the Water": every crate, coin and run; marks, never names. A friend's mark is a
+#   little heron ("trust this one"). Two ledgers joke: one with no names, one with no numbers.
+# - Enforces the Brine Articles, especially "nothing that cries"; once refused a fortune to douse a light.
+# - Half a chart to the Golden Heron's grave, found under the false bottom of a sea chest with a heron feather.
+# - Started as a deckhand bailing a Maybe with a hat.
+# - Wexley answered a polite letter about his brandy debt with a copper nail and a drawing of his bell.
+# - Sold the Northward its brandy; Arvid Strand paid in silver and promised furs by spring.
+# - Shared a silent cup of tea with a Tidewatch warden in a fog once; neither mentioned it again.
+# - A courteous, never-met respect for the Tidewatch captain on this coast.
+
+## chief.greet
+Welcome to {place}. I'm {name}, and this is my rock, my cove and my very discreet business.
+Ah, a guest. Sit. May I offer you something? Tea, figs, a bolt of silk at a very reasonable price?
+A pleasant {time} to you. You've found us, which means you're either clever or lucky. I respect both.
+Hello, {player}. Mind the ledger; the ink's still wet, and some of it is in code.
+Welcome. The crew will have told you the rules. If not, only one matters at the door: no names on the water.
+A visitor to my cove. How refreshing. Most of my guests arrive in crates.
+Come in. You look like someone who appreciates a good deal and a quiet tongue.
+Ahoy, {player}. If you're here on the Tidewatch's business, you're terribly lost. If you're here on mine, you're right on time.
+Greetings from the chief of {place}. Don't mind the title. It mostly means I count things.
+Ah, company. Pour yourself a cup. The tea is honest, even if nothing else in here is.
+Hello. You have the look of someone with questions, and I have the look of someone who answers them for a price. Let's be friends instead.
+Welcome to the Brotherhood's humblest rock. Humble is safer than grand. Grand rocks get noticed.
+
+## chief.greet.stranger
+I don't know your face. That makes two of us; I hardly know my own in this light. Welcome.
+A stranger in my cove. Do sit. And do forget the way in when you leave; it's only polite.
+You're new. That's fine. Everyone's new once. Even the Tidewatch, though some of them never grow out of it.
+I don't ask names and I don't give them. But I'll give you a cup of tea, which is rarer.
+Strangers make my crew nervous. They don't make me nervous. They make me curious. Welcome.
+
+## chief.greet.friend
+{player}, my favourite guest. I keep a chair dry for you, which in a sea cave is a great honour.
+Ah, my friend. The ledger has a page for you. No name on it, of course. Just a little drawing of a heron.
+Back again. Good. The cove's quieter without you, and quiet makes me count things twice.
+There you are. Sit; I've just opened a crate of the good cinnamon. You'll smell like a bakery for a week.
+{player}. Welcome home. Well, home-adjacent. Smugglers don't say home out loud.
+
+## chief.chat.new
+You're at {place}, home to a few members of the Brine Brotherhood. We move spices, silk and pearls past people who'd like a cut.
+I'm the chief here. That means I keep the ledger, settle the arguments and take the blame. Mostly the last.
+A word to the newcomer: what you see in this cove, you didn't. What you hear, you didn't. What you taste, you may mention. The figs are excellent.
+We keep the Brine Articles here. The first is no names on the water. The rest are about being decent. You'd be surprised how many find that the harder part.
+
+## chief.chat
+The ledger is called "No Names on the Water." Every crate, every coin, every run, and not a single name. Marks only. I know whose marks are whose.
+The Tidewatch are a nuisance, not an enemy. The same patrols have chased us for years. We've become very polite with each other.
+The Brine Articles: no names on the water, never douse a light, throw the cargo not the crew, share the salt even, nothing that cries. I keep them stricter than any captain keeps anything.
+Nothing that cries: no people, no stolen pets, no poison. We run spice and silk and pearls. Luxury, not misery.
+Old Pepper wrote the first Articles on the back of a fish crate. I've seen a copy. The spelling was terrible. The rules were perfect.
+My crew are good. Fast, quiet and honest with each other. Dishonest with tax collectors, but you can't have everything.
+Never douse a light. A buyer once offered me a fortune to darken a lighthouse for one night. I showed them the way out. Not for all the pepper in the south.
+There's a Tidewatch captain on this coast I've never met and hope never to. I'd hate to have to dislike someone I've respected for years.
+I keep half a chart to the Golden Heron's grave. The other half went down with whoever drew it. One day I'll find the rest. Or someone I like will.
+As far as the Tidewatch knows, every Maybe is the same boat. That's the beauty of the name. They've been chasing one boat for a hundred years.
+Pepper is reliable, silk is profitable and pearls are beautiful. If I had to choose, I'd choose pearls. Don't tell the pepper.
+A good smuggler doesn't run. A good smuggler is simply somewhere else when anyone looks.
+I count everything twice: crates, coins, crew. Especially crew. Nobody gets left on a beach on my watch.
+People expect a smugglers' chief to be all daggers and threats. I mostly do sums. Sums, and worrying about the weather.
+The lighthouse keepers are the only truly honest people on this coast. We leave them gifts; they leave our boats out of the Lamp Log. As it should be.
+Barnacle the cat has a line in the ledger: paid in fish, every run. The only member who's never complained about the split.
+The tide decides everything here: when we run, how we run, whether we come back. I don't argue with the tide. I plan around it.
+Smuggling is just trade with a sense of humour about the rules.
+I've been offered bigger rocks. I like this one. It's small and quiet, and nobody's ever found it but the gulls and you.
+The best cargo is the cargo nobody knows exists. The second best is cinnamon.
+
+## chief.chat.close
+Something that isn't in the ledger, {player}: if the Brotherhood ever needs a friend ashore, I'd want it to be you.
+You've earned a mark in my ledger. Not a name; a mark. It's a little heron. It means "trust this one."
+If I ever find the other half of the Heron chart and something happens to me, it's yours. I've written that down. In code. You'll work it out.
+I don't trust easily. It's practically the job. But I trust you, and that's worth more than anything in these crates.
+
+## chief.past
+I started as a deckhand on a Maybe, bailing with a hat. The chief back then said I bailed like I meant it. That's how you rise in the Brotherhood: by meaning it.
+In the Three-Day Blow I kept the crew in the stack a week. We ate the fig cargo. It's in the ledger as "lost to weather." Delicious weather.
+Wexley owed us for brandy. I sent a polite letter. Back came a copper nail and a drawing of the bell. I kept both. I think they were the last things he sent anyone.
+I sold the Northward its brandy. Arvid Strand paid in silver, shook my hand and promised furs by spring. I kept a shelf empty for those furs for three years.
+Years ago a Tidewatch boat caught us in fog. I offered the warden a cup of tea. We drank it in silence. Then the fog lifted, and we both pretended it never happened.
+The night our old Maybe broke up on the reef, I ordered the cargo overboard and the crew into the boat, in that order. Not a soul lost. Half a fortune gone. Best trade I ever made.
+The last of Old Pepper's crew taught me the lantern signals. Ancient by then, nearly blind, and still faster with a lantern than anyone alive.
+I found the half chart under the false bottom of a sea chest we bought at a harbour sale, wrapped round a heron feather. I've dreamed of it ever since.
+I once ran three crates of pepper past two forts and a lighthouse in a single night. The keeper flashed us "good luck." I've never forgotten it.
+
+## chief.night
+Night is when the ledger fills. Crates out, coin in. I like the sound of quiet oars.
+Watch the lantern up top. Two shorts and a long: all clear. If it ever shows a long and a long, find a crate and look like cargo.
+On nights like this I stand on the dock and count the boats back in. Every time the count comes out right, I breathe again.
+Some nights there's a gold light far out under the water. The Heron's lamp, they say. I'd give a year's pepper to row out to it. I'd give two not to.
+
+## chief.work
+The ledger first, always. Every crate in, every crate out, every coin split even. No names. Just marks.
+I plan the runs: the tide, the moon, the Tidewatch patrol hours. Their patrols are very regular. Bless them.
+Splitting the take is the most important job I do. Share the salt even. A crew that feels cheated is a crew that talks.
+I check every crate before it leaves. Nothing that cries, nothing that poisons. If I find something that does, it goes back where it came from, and so does whoever brought it.
+My buyers inland never see my face. A baker, a weaver, a jeweller. Each thinks I'm someone different.
+I read the storm glass every morning. A smuggler caught in a storm gets nothing but wet.
+Pearls I weigh and count myself. Pearls have a way of wandering. Not because anyone's dishonest. Pockets are simply very attractive to pearls.
+I study the Tidewatch: their boats, their watches, their supper hours. To beat them, you have to admire them a little.
+My crew practises the escape twice a month: everyone grabs a crate and swims. They're still terrible at it. I'm still proud of them.
+Every new hand learns the Articles by heart before touching an oar. I test them out loud, in front of the cat.
+A chief's real job is keeping people out of trouble while doing something that's mostly trouble.
+
+## chief.joke
+I keep two ledgers: one with no names, one with no numbers. The Tidewatch would need both, and a very good night's sleep.
+A warden once asked what I do. "Imports." Of what? "Maybe." They're still writing it down.
+What's the difference between a merchant and a smuggler? About three forts and a very nice sloop.
+The crew asked for a raise, so I raised the ceiling of the bunk room. They didn't laugh. I'm still laughing.
+Why did the chief cross the sea? To get to the other buyer.
+Old Pepper hid pepper under mackerel. I once tried hiding mackerel under pepper. The buyer was very confused.
+Barnacle embezzled four fish from the ledger last month. I've decided to promote the cat.
+
+## chief.news
+The ledger's in good shape this month. Pepper's up, silk's steady and nobody's been caught. My favourite kind of news.
+The Tidewatch has a new boat, faster than the old one. I sent the crew to watch it sail. They came back admiring it. Traitors.
+A buyer inland wants saffron. I don't have saffron. By next month, I'll have saffron.
+We lost a crate overboard last night. Silk. Somewhere, a very lucky warden has new curtains.
+The storm glass is clouding. We'll hold the next run until it clears. Pearls don't like getting wet. Neither do I.
+Raiders' longboats have been seen past the point. Nobody profits from raiders. If they come near this coast, the Tidewatch will have my quiet sympathy.
+
+## chief.heart
+Everyone in this cove has trusted me with their life at least once. I keep the ledger for the coin. I keep the count for them.
+I've had chances to be cruel and rich. I chose decent and comfortable. I sleep fine.
+Throw the cargo, not the crew. If I'm remembered for anything, I want it to be that.
+Some nights I envy the lighthouse keepers. One light, and everybody grateful. Nobody's ever grateful to a smuggler. Except the bakers.
+No names on the water. People think it's about hiding. It's about freedom. Out there, nobody owes anybody anything.
+I worry more about my crew than about the Tidewatch. The Tidewatch only wants to catch them. The sea wants to keep them.
+If the Brotherhood ever ends, I hope it ends with every one of us old and fat and bored somewhere warm, telling lies about the old days.
+
+## chief.held.pearl
+A pearl. Let me see. Mm. Good lustre, no flaws. I'd pay fair for that, and fairer if you didn't mention it to anyone.
+Pearls are the only cargo I'd keep for myself. Hold it to the lantern. That glow is why I do this.
+
+## chief.held.gold
+Gold. Is it off the Heron? Don't tell me. Let me dream.
+Gold's honest money. Heavy, but honest. I prefer pearls; they hide better.
+
+## chief.held.map
+A chart? May I? Ah, a keeper's work. See the margins. They always put the truth in the margins.
+Show me that. No, I'm not looking for the other half of the Heron chart. I'm always looking for the other half of the Heron chart.

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "oceanexpansion:block/signal_lamp"
+    },
+    "facing=east": {
+      "model": "oceanexpansion:block/signal_lamp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "oceanexpansion:block/signal_lamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "oceanexpansion:block/signal_lamp",
+      "y": 270
+    }
+  }
+}

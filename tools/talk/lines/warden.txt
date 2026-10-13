@@ -1,0 +1,395 @@
+# Warden: the Tidewatch knights and archers of a sea fort ({place} = "Fort Saltmere", "Tidewatch Keep",
+# "Seaward Hold"...). Knights and archers share this file: say "our archers" / "the knights", never "we archers".
+# No pronouns for any warden or the captain. {captain} (the fort's captain, by first name) used sparingly.
+#
+# The captain falls back to these pools. The captain has its own greet, greet.stranger, greet.friend,
+# chat.new, chat, chat.close, past, night, work, joke, news, heart, held.sword, held.spyglass and
+# player.hurt; EVERY OTHER POOL HERE IS ALSO SPOKEN BY THE CAPTAIN, so those must never mention "the captain"
+# in the third person (use {captain}, which the captain skips) or say "Warden {name}".
+#
+# SHARED COAST CANON (same in all five files):
+# - Tidewatch: "We keep the light." Blue banner, white light. The Tide Log: every tide, every sail, every
+#   drowned. Blue cord tied on the wrist when sworn ("you wear it till it rots, then tie on another").
+#   "Swimming the gate": recruits swim out the sea gate, round the reef and back, at night.
+#   Corwen the First Keeper: a driftwood fire on a bare rock, three nights, for a wrecked crew.
+#   The High Warden writes once a season: "keep vigilant." When a light goes dark every fort lights its
+#   brazier: "the chain of fires". A lighthouse flashes red at a fort for help; the boat goes out.
+# - Fort Hake: rival fort; wins the Lantern Shoot (archery by lantern light) every year, eleven years running;
+#   lost its boat in the Three-Day Blow, found a month later up a tree inland (we still send them acorns).
+# - Barnacle: every fort cat is named Barnacle after the Golden Heron's ship's cat that came ashore on a spar.
+#   The fort's Barnacle outranks some wardens in the Tide Log; its crab was logged as "a capture".
+# - Brine Brotherhood ("Briners"; they call the Tidewatch "the Candles"). Every Brotherhood boat is the Maybe:
+#   "Whose boat?" "Maybe." Silk crates wash up against the wall. Smugglers are a nuisance; raiders (longboats,
+#   moonless nights) are the enemy; storms are worse than both.
+# - Heron Gale: the oldest Tide Log gives it four words: "Green sky. Great ship lost." Captain Ysolde Marrow went
+#   down with the Golden Heron; some say she still keeps it. The Heron's lamp: a gold glow under the water.
+#   A coin for Ysolde when you pass deep water.
+# - Three-Day Blow: the brazier burned three nights straight; every light on the coast held.
+# - Wexley: Bartholomew Wexley got his salvage permit from a Tidewatch captain; his barge was found riding at
+#   anchor over the bell, nobody aboard. "An hour's air and a minute's sense."
+# - Northward: Arvid Strand, sailed north, never came back. Everyone on the coast claims they saw it pass.
+# - Lightkeepers sell storm glasses (cloudy = rain, feathers = storm) and Sea Charts (truth in the margins).
+# - Old Tide: sea-stone, one great carved eye, guardians. Sea Friends: merfolk (fish tails, coral reef towns),
+#   Prismari (tall, spined, one great eye, the deep; said to have built the monuments).
+#
+# FORT LIFE: hardtack and salt pork; the soup is a duty; the boat is called the Steady (it isn't); the
+# portcullis screams every spring; ballistae need restringing monthly; drill every morning.
+
+## warden.greet
+Halt! Oh, you're no raider. Welcome to {place}, then.
+We keep the light. Welcome, friend of the coast.
+Ahoy! Mind the weed on the sea steps; we've lost more wardens to those steps than to the drowned.
+Warden {name}, of the Tidewatch. State your business, or just stand there and enjoy the spray.
+A visitor! I'll have to write you in the Tide Log. Don't worry, you're in good company: three gulls and a crab.
+Welcome to the fort, {player}. Keep your hands where I can see them. Joking. Mostly.
+Light's lit, sea's calm, and here's a new face. Not a bad {time} at {place} after all.
+Hello there. If you've come to join the Tidewatch, the captain's in the keep. If you've come for the soup, I'm sorry.
+Ahoy, {player}. Sea gate's open, wall's manned, kettle's on. Come in.
+Greetings from the Tidewatch. We're the ones who stand on walls in the rain so you don't have to.
+Welcome to {place}. Wipe your boots; the captain inspects the floors.
+You came in by boat? Brave. The current round the reef has eaten three of our boats this year. The wardens swam.
+Hail and well met. Not a raider, not a drowned, not a Briner. Already a better visitor than most.
+Oh, a guest! Everyone stand up straight; there's a guest.
+Ahoy! You're dripping on my nice clean wall. That's all right. So is the sea.
+Welcome. Barnacle the fort cat has inspected you from the battlements and found you acceptable.
+Ho there. Don't mind the ballista; it only points at you out of habit.
+
+## warden.greet.stranger
+Don't know your face. That's no crime here, but I'll be watching you all the same. Welcome.
+A stranger. Name and purpose, for the Tide Log. Or just a name. Or just wave, and I'll write "waved."
+You're not from round here. Nobody's from round here; it's a rock in the sea. Come in.
+New to the coast? Rule one: the drowned come up on dark nights. Rule two: never eat the soup.
+I'm meant to search you for contraband. Pepper? Silk? No? Good. You're cleaner than the last three fishing boats.
+Strangers get a warden's welcome: a nod, a squint and the second-best stool.
+If you're Brotherhood, you're terrible at hiding it. If you're not, welcome to the fort.
+
+## warden.greet.friend
+{player}! I told the others you'd be back. Nobody would bet against me, which was very wise of them.
+Friend of the fort! Come up on the wall and stand a watch with me; it's dull without you.
+There you are. Barnacle's been sitting by the sea gate as if waiting for somebody.
+{player}, welcome back. Captain {captain} has you in the Tide Log as "Friend of the Tidewatch." That's not nothing.
+Ah, our favourite landlubber. Or are you a sealubber by now? You've been out there long enough.
+Back again! Pull up a crate. I saved you a ship's biscuit. Sorry, it's the hard kind. They're all the hard kind.
+Good to see a friendly face. All the others here are friendly too, but I've seen them every day for a year.
+
+## warden.greet.morning
+Morning, {player}. The dawn watch just changed. I've been staring at the sea since midnight and it's still there.
+Good morning! Drill in the yard soon. Watch if you like; we fall over less in the mornings.
+Morning. Quiet night: no drowned, no raiders, one very confused seal.
+Morning tide's in. That's when we check the sea gate chains for weed.
+Morning! Breakfast is hardtack and salt pork. So is lunch. So is supper.
+
+## warden.greet.evening
+Evening. Brazier's stacked, watch is posted. We keep the light.
+Good evening, {player}. The sun's going down, so the drowned will be coming up. Stay inside the wall.
+Evening. Supper was fish pie. Don't ask what kind of fish; the cook doesn't know either.
+Evening already? The days fly when you spend them scraping salt off your armour.
+Evening, friend. Hear the gulls going quiet? That's the sea telling the night watch it's their turn.
+
+## warden.greet.night
+Halt, who goes there? Oh, it's you, {player}. Can't be too careful at night.
+Quietly, now. Night watch. Every splash out there gets a second look.
+Out at night? Keep near the lanterns. The drowned like the dark water by the reef.
+Late for a visit, {player}. It's cold on the wall, but the stars are good company.
+Shh. Hear that? Just a wave. Probably just a wave. It goes in the Tide Log anyway: "probably a wave."
+
+## warden.chat
+The Tide Log has every tide, every sail and every drowned we've seen since this fort was built. Some pages just say "fog."
+We keep the light. That's the Tidewatch saying. A lighthouse, a brazier, a lantern on a pole: somebody keeps it lit.
+Corwen, the First Keeper, kept a driftwood fire alive on a bare rock for three nights so a wrecked crew could find the shore. Every warden learns that before learning to hold a spear.
+The drowned come up on dark nights, mostly near the reef. Every one goes in the Tide Log. The captain likes tallies.
+The Brotherhood runs pepper and silk right under our noses. We catch about one boat in ten. The other nine wave.
+There's a sloop we've chased for years. Every time we hail it and ask whose boat it is, a voice calls back "Maybe." Every Brotherhood boat is the Maybe, apparently.
+The Briners call us "the Candles," because we keep lights. I can't decide if it's an insult. It sounds a bit like a compliment.
+Every Tidewatch fort has a cat called Barnacle, after the ship's cat that floated ashore from the Golden Heron. Ours outranks me in the Tide Log.
+Fort Hake wins the Lantern Shoot every year: archery by lantern light, every fort on the coast. I'm sure they cheat. I can't prove they cheat.
+When I was sworn in, they tied a blue cord round my wrist. You wear it till it rots, then tie on another. Salt rots them fast.
+The brazier on the keep is our loudest word. Lit means storm, or raiders, or come quick. It never means all's well. That's what quiet is for.
+Raiders come in longboats, low and fast, on moonless nights. Our archers on the wall are the first to know and the last to sleep.
+The sea gate's portcullis sticks every spring. Rust. We hang off the chains and swear at it until it moves.
+The worst duty here is scraping barnacles off the boat. The second worst is the soup. Eating the soup counts as a duty.
+Salt gets into armour, into hinges, into bowstrings. Into the soup, too, which is the only thing it improves.
+We drill every morning: knights at the dummies, archers at the targets, everyone on the stairs until our knees file a complaint.
+You can hear the whole sea from the wall at night. You learn its noises: wave, wave, seal, wave, drowned. That last one gets the bell.
+Most lighthouse keepers stood these walls once. Now they get a whole tower to themselves and nobody shouting drill at dawn. Lucky.
+When a storm comes in from the west, the whole fort hums. You feel it in your teeth.
+A fisher once asked if we get bored out here. I pointed at the drowned crawling up the sea steps. Not bored. Damp.
+The Tide Log is the only book here. The best bit is three pages a warden wrote about a gull that stole a boot.
+Our boat's called the Steady. It isn't.
+Barnacle caught a crab and brought it to the keep. It went in the Tide Log as "a capture."
+We patrol the reef by boat twice a day. Mostly we find driftwood and very surprised fish.
+If a light goes dark anywhere on the coast, every fort lights its brazier. A chain of fires. Then somebody rows out to find out why.
+Our archers can hit a bobbing bottle at sixty paces. In calm water. On a good day. Never in front of Fort Hake.
+The knights carry shields painted blue with the white light. Some paint little waves round the rim. The captain pretends not to notice.
+Being a warden means standing still in the rain for hours and being glad of it. Strange job. Good job.
+The pay is poor, the food is worse, and the view is the best in the world.
+Never trust a calm sea in the evening. It's only catching its breath.
+Fog's the worst. In fog the drowned can walk right up the steps. So can smugglers. So can the cook, with the soup.
+Captain {captain} writes the Tide Log in a hand so neat you could frame it. Even the entries about the soup.
+
+## warden.chat.new
+This is a Tidewatch fort. We guard the coast against the drowned, raiders and storms. Mostly storms; they never stop coming.
+This is {place}: wall, keep, brazier, sea gate. If you hear the bell, get inside the keep and stay there.
+I'm {name}. If you need anything, ask. If you need anything interesting, ask the captain.
+Don't wander onto the wall at night without calling out first. Our archers are jumpy, and good.
+If anything odd happens to you at sea, come and tell us. It all goes in the Tide Log.
+Visitors can stay inside the wall. Just don't touch the brazier. Lighting it by accident would wake half the coast.
+
+## warden.chat.close
+I'd stand a watch for you, {player}. Any wall, any night. That's what a friend is, in the Tidewatch.
+If anything ever happened to you out there, I'd row out myself. Don't tell the captain I said so; it breaks three different rules.
+I've half a mind to ask the captain to make you an honorary warden. You'd need a blue cord. I have a spare.
+Of everyone who's come through the sea gate, you're my favourite. Barnacle's second. Don't tell Barnacle.
+I don't say this often, but it's good to have someone out here who isn't wearing a tabard.
+When the night watch is long, I think about the people who come back. You always come back. Keep doing that.
+Here. Tie this round your wrist. It's just a blue cord. It means you're one of us, as far as I'm concerned.
+
+## warden.past
+I swam the gate the night I was sworn. Every new warden does: out the sea gate, round the reef and back, in the dark. Coldest I've ever been.
+In the Three-Day Blow the brazier burned three nights straight. We took turns feeding it in the rain. Every light on the coast held. Every one.
+Fort Hake lost their boat in the Three-Day Blow. Found it a month later, up a tree inland. We still send them acorns.
+I've been posted at more than one fort. The sea's different at each. The soup's the same.
+There was a raid, years back. Longboats on a moonless night. Our archers saw the oars glint, and the bell rang before the first boat reached the reef.
+I saw the Northward once, I swear it: a ship running north under full sail, late in the year. Everyone on the coast says that, though. Can't all be right.
+The oldest Tide Log gives the Heron Gale four words: "Green sky. Great ship lost." Then three blank pages, as if nobody could bear to write more.
+When I was a recruit, the old sergeant made us polish the brazier till we could see our faces in it. Then it rained. Then we did it again.
+Old Wexley, the diving bell fellow, came through for a salvage permit. Later his barge was found riding at anchor over the bell, with nobody aboard.
+My first drowned came up the sea steps on my first night. I dropped my spear; it dropped its trident. We stared at each other. Then I remembered I had a sword.
+Before the Tidewatch I did a bit of everything, badly. Now I do one thing badly, in a tabard.
+There was a winter the bay froze. We walked out to check the moorings, roped together like a string of sausages.
+
+## warden.night
+Night watch is the real work: eyes on the water, ears on the wind, and one hand on the bell rope.
+See the lights out there? Fishing boats, a lighthouse, maybe a Brotherhood sloop with its lantern hooded. The sea's busier at night than people think.
+The drowned come up when the moon's dark. Tonight's a dark one. Stay close to the lanterns.
+I like the hour before dawn. Coldest, quietest, and you watch the whole sea turn grey like a page being written on.
+Sometimes at night you hear singing out on the water. The captain says it's seals. I've never met a seal that could hold a tune.
+Watch the lighthouse out there. While it's lit, all's well. If it goes dark, we light the brazier and somebody rows.
+Night on the wall is when you think: about home, about the sea, about whether the soup's still on the fire. The soup is always on the fire.
+
+## warden.work
+Every tide goes in the Tide Log: the time, the height, the wind, every sail and every drowned. It's dull, right up until the day it isn't.
+Morning drill: knights to the dummies, archers to the targets. Then everyone scrapes salt off everything.
+We patrol the reef by boat twice a day, looking for drowned, raiders, wrecks and whatever else the sea coughs up.
+The brazier's kept stacked and dry. When it's needed, there's no time to go looking for kindling.
+We search fishing boats that come too close. Usually it's fish. Once it was a crate of pepper under the fish. That was a good day.
+Checking the gate chains, oiling the portcullis, tarring the boat. A fort is mostly maintenance and shouting.
+Our archers count every sail on the horizon. The knights check every boat that comes in. The captain checks us.
+Before a storm we bring the boat inside the sea gate and lash down everything that moves. Then we lash down the cook.
+Drowned with tridents are the dangerous ones. You learn to watch the throwing arm.
+We keep the light. That means the brazier, the lanterns and each other. And the Tide Log, which keeps us.
+A warden's kit: a helmet, a blade or a bow, a dry cloak, a wet cloak, and a sense of humour about the second one.
+When a lighthouse flashes red, we row. Doesn't matter the weather. Doesn't matter the hour.
+The ballistae on the wall need restringing every month. Salt and damp rot the cords, like everything else here.
+We watch the sky as much as the sea. A green sky before a storm means a bad one. The old Tide Log says the Heron Gale came in green.
+Guard duty sounds dull, and it is, right up to the moment it very much isn't.
+
+## warden.adventure
+Going out? Tell the fort which way first. If you don't come back, we'll know where to look.
+The drowned are worse the deeper you go, and the ones dripping gold near the old wrecks are the worst of all.
+If you find the Golden Heron, mind its captain. Ysolde Marrow went down with her ship, and sailors say she still keeps it.
+Watch for Old Tide stonework under the water: sea-stone, dark stone and one great carved eye. The guardians there don't like visitors.
+Buy a storm glass from a lighthouse keeper before you go. A sailor without one has a short career.
+If you spot raiders, light anything you can and get back to a fort. That's not cowardice. That's the plan.
+The Northward is out in the frozen north somewhere, locked in ice. Arvid Strand's crew is still aboard, the stories say. Not cheerful company, I'd guess.
+Smugglers hide in hollow sea stacks. If you find one, tell the Tidewatch. Or don't, and tell me what their pepper smells like.
+There's an old diving bell off the coast somewhere. Wexley's. Whatever went wrong on his last dive might still be down there.
+The coast is long. A fort every so often, a light every so often, and between them, just you. Go carefully.
+
+## warden.joke
+Why did the warden take a ladder up to the wall? The captain said to step up the watch.
+How can you tell a Fort Hake archer has won the Lantern Shoot? Don't worry. They'll tell you. For a year.
+What do you call a smuggler without a boat? A swimmer. And a smuggler with a boat? Maybe.
+A drowned walked up the sea steps once. "Name and purpose?" "Blub." So "Blub" went in the Tide Log. True story.
+Why don't wardens play cards on the wall? The gulls keep taking tricks.
+What's the difference between our soup and sea water? The sea water's been boiled less.
+The Briners call us Candles. We call them Briners. Barnacle calls us both "the people with fish." Barnacle's the smartest of us.
+Why did the knight take a fishing rod on patrol? To catch the drowned. It didn't work. It did catch lunch.
+I asked for a day's leave. The captain looked at the sea and said, "Where would you go?" Fair point, really.
+How many wardens does it take to light the brazier? Four. One to light it and three to write it in the Tide Log.
+What did the fort say to the storm? Nothing. Forts don't talk. But if they did, it would be rude.
+
+## warden.news
+Two drowned came up the sea steps last night. Both back in the sea now, and both in the Tide Log.
+The boat's sprung a leak again. Somebody's bailing it this very minute, with a helmet. Not their own, I hope.
+A fishing boat came in with "fish" that smelled of cinnamon. Brotherhood, sure as tides. They were gone while we were still sniffing.
+Word is Fort Hake has practised for the Lantern Shoot all year. We've been practising too. In our heads.
+The storm glass we bought from a keeper has gone cloudy. Rain coming. The cook's moved the soup indoors, for all the good it does.
+Barnacle had kittens. Or Barnacle found kittens. Either way, there are more cats than there were. The Tide Log is unclear.
+A merchant saw a dark sloop slip round the point without lights. The Maybe again, probably.
+Our archers spotted longboats on the horizon at dusk. Probably fishers. We lit every lantern on the wall anyway.
+The brazier chimney cracked in the cold. Somebody has to climb up and patch it. Somebody is going to be me.
+A crate washed up against the wall this morning, full of silk. The captain says it's evidence. I say it's very nice silk.
+Captain {captain} has doubled the night watch and won't say why. That usually means longboats.
+
+## warden.heart
+Standing on a wall in the rain doesn't feel heroic. But every boat that gets home safe is because somebody did.
+I miss home sometimes. Then I think: somebody's home is that light out there, and I help keep it lit.
+The back of the Tide Log has names in it: wardens who didn't come home. We read them on the longest night of the year. It's quiet, after.
+The people here are my family now. Loud, salty, badly fed family.
+I'm not brave, you know. I'm scared every time the bell rings. I just go up the stairs anyway.
+When the sun comes up after a bad night and you count heads and they're all there, it's the best feeling in the world.
+Sometimes I envy the keepers. One light, one rock, all that quiet. Then I remember they cook for themselves.
+We keep the light. I used to think it was about the brazier. It's about each other.
+If I ever leave the Tidewatch, I'll still wake at the change of watch every night. You never really stop standing guard.
+
+## warden.rumor
+The Tide Log has a note about {rumor_name}, out {rumor_dir}. Our patrols never went that far, but a fisher swore to it.
+Fishers talk about {rumor_name}, {rumor_dir} of the fort. Call it {rumor_dist}. Worth a look, if you've the boat.
+Hunting adventure? Try {rumor_dir}. Word is there's {rumor_name} that way, {rumor_dist}.
+You can't see it from the keep, but there's {rumor_name} out {rumor_dir}, they say: {rumor_dist}, by the fishers' reckoning.
+A merchant reported {rumor_name}, {rumor_dir} of here. It went in the Tide Log with a question mark.
+Out {rumor_dir} there's {rumor_name}. I've always wanted to look. I've always been on watch.
+Our archers see lights out {rumor_dir} some nights, and a fisher says there's {rumor_name} that way. Probably connected. Probably.
+There's {rumor_name}, {rumor_dir} of {place}, {rumor_dist}. Take a friend, a lantern and a storm glass.
+Ask any fisher about the {rumor_dir} and you'll hear about {rumor_name}. Then you'll hear about their aunt. Leave after the first part.
+Sail {rumor_dir} and you'll find {rumor_name}, they say. Come back and tell us; the Tide Log likes an ending.
+
+## warden.rumor.none
+Nothing in the Tide Log worth a sail lately. Drowned, fog, fish. The usual.
+No word of anything out there. The fishers have gone quiet, which means either nothing's happening or everything is.
+I've heard nothing new. Ask a lighthouse keeper; they hear more than any fort.
+The sea's keeping its secrets this season. Ask again after the next storm; storms shake things loose.
+
+## warden.seafolk
+Our archers swear they've seen merfolk out by the reef at dawn, tails flashing. They wave at the wall. We wave back. Officially.
+Merfolk don't come near the fort much. Can't blame them. One whiff of our soup would scare anyone off.
+A merfolk once surfaced by the sea gate and asked for whoever was in charge, very politely, to report drowned near their reef town. Into the Tide Log it went.
+The Prismari, sailors call them: tall folk of the deep, spines down the back, one great eye. The old Tide Logs mention lights in deep water. Maybe it was them.
+Some old hands say the Prismari built those sea-stone monuments in the deep, where the guardians swim. I'm not diving down to ask.
+The merfolk know the sea better than any fort. When they say a storm's coming, we stack the brazier without arguing.
+I once saw a carving of one great eye on an old sea-stone, and later heard a sailor describe a Prismari's face. Same eye. I didn't sleep well.
+Merfolk children race our patrol boat sometimes. They always win. It's very bad for morale.
+There's a rule in the Tidewatch: merfolk in trouble get the same help as anyone. The sea doesn't care who has legs.
+
+## warden.held.pickaxe
+Thinking of tunnelling? This fort sits on a reef. Down here, a tunnel is just a leak with ambitions.
+Mining at sea is mostly a good way to flood things.
+
+## warden.held.sword
+Good blade. Keep it oiled; salt air eats a sword faster than any drowned.
+That's a fair sword. The knights here will want to spar. Say no; they never stop.
+
+## warden.held.axe
+An axe! The brazier always needs firewood. You wouldn't be in a chopping mood?
+Careful with that near the boat. The last warden who chopped near the boat sank it.
+
+## warden.held.shovel
+A shovel. Not much digging on a fort built on a reef, but the wall always needs the gull mess shovelled off.
+Treasure hunting? Everyone with a shovel is. The treasure's always under the sea.
+
+## warden.held.bow
+A bow! Our archers will want to see your draw. Don't be nervous. Be very nervous.
+If you can hit a bobbing bottle at sixty paces, the Tidewatch wants you. Fort Hake especially wants you not to.
+
+## warden.held.shield
+A good shield. The knights here paint theirs blue with a white light. Yours would look smart that way.
+Hold your shield high on the sea steps. The drowned throw tridents.
+
+## warden.held.torch
+A light! We keep the light. You're practically one of us.
+Careful with that near the brazier. That's a lot of oil to explain in the Tide Log.
+
+## warden.held.ore
+That {item} would make good fittings for the portcullis, if a smith ever came out this far.
+Ore? The fort could always use more iron. Everything here rusts by Thursday.
+
+## warden.held.diamond
+A diamond! Hide it. The Brotherhood can smell those from a league away.
+That's worth more than a whole fort's pay for a year. Probably more than the fort.
+
+## warden.held.gold
+Gold! Mind you're not taken for a Briner. Or for a drowned off the Golden Heron.
+Drop a coin for Ysolde when you pass deep water, the old wardens say. For luck.
+
+## warden.held.emerald
+Emeralds. Traders' money. Smugglers like them too. Not that I'm saying anything. I'm just looking at you.
+Green as the reef at noon. Don't flash that about by the sea gate; it makes the knights nervous.
+
+## warden.held.food
+Is that {item}? Real food? Don't let the knights see. Or our archers. Or me. Too late.
+That smells better than anything our mess has ever served, and I can't even tell what it is.
+
+## warden.held.map
+A map! Show me. See, we're here, the reef's there, and Fort Hake's over there somewhere, being smug.
+If that's one of the keepers' charts, trust the margins. The keepers write the good bits in the margins.
+
+## warden.held.compass
+A compass. Good. Too many sailors steer by guessing, and the sea doesn't reward guessing.
+Watch the needle near the fort; the old iron in the walls makes it wander.
+
+## warden.held.book
+A book! Real reading. All we have here is the Tide Log, and I know how it ends: "fog."
+Keeping your own log? Good. Every sailor should. Every warden must.
+
+## warden.held.tnt
+Put that down slowly. Slower. Good. Now please never bring it near the brazier.
+Blasting powder? On a fort full of oil and lamps? Half the fort would fall over and the other half would fall in.
+
+## warden.held.potion
+A potion? If it's for breathing under water, I'd like three.
+Whatever's in that, keep it away from the soup. It might improve it, and the cook would be insulted.
+
+## warden.held.flower
+A flower! Nothing grows on a reef but weed and barnacles. Let me just look at it a moment.
+For the fort? It can go in a helmet on the windowsill. That's the closest thing to a vase we have.
+
+## warden.held.bucket
+A bucket! The boat's always leaking. Want a job?
+Handy, that. We bail the boat every morning and the sea gate every storm.
+
+## warden.held.trident
+A trident! You took that off a drowned. Well done; those tips are nasty.
+That's a drowned's weapon. The armoury hangs one on the wall for every hundred drowned we send back. We have a lot of tridents.
+
+## warden.held.fishing_rod
+Fishing off the wall is allowed when you're off watch. Officially.
+A rod! Catch something better than the cook manages and I'll be your friend forever.
+
+## warden.held.shell
+A shell from the deep. The old wardens said a shell like that holds the sound of a storm.
+That's from deep water. You've been diving where the drowned are. Brave.
+
+## warden.held.pearl
+A pearl! The Brotherhood runs those past us all the time. You didn't get that from a smuggler, did you?
+Pearls come from the warm shallows, from clams as big as barrels. Or out of Briners' pockets.
+
+## warden.held.fish
+Fish! Don't give it to the cook. Cook it yourself; you'll do it better.
+Barnacle will follow you all round the fort now. You've only yourself to blame.
+
+## warden.held.boat
+A boat! Heading out? Tell us which way, so the Tide Log knows where to look.
+Keep your boat in the lee of the wall. The current round the reef eats boats.
+
+## warden.held.spyglass
+A spyglass! Our archers would trade their best bowstrings for one of those.
+Come up on the wall with that and tell me if that's a fishing boat or the Maybe. I can never tell.
+
+## warden.player.hurt
+You're bleeding on the sea steps. Sit down. Our healing is mostly bandages and shouting, but it works.
+Drowned got you? Sit by the brazier. I'll fetch bandages, and you can tell me which way it went.
+
+## warden.player.hungry
+You look hungry. I'd offer you the soup, but I like you. Have a biscuit instead.
+Hungry? There's salt pork in the mess. It's salty and it's pork. That's all I can promise.
+
+## warden.player.unarmored
+No armour? On a coast full of drowned? Brave, or new. Probably new.
+You're not wearing a stitch of armour. The sea's no place for that, friend.
+
+## warden.player.diamond
+Diamond armour! Don't fall off the sea gate; you'd sink straight down to the drowned.
+Look at that. Fort Hake would weep with envy, then polish theirs twice as hard.
+
+## warden.player.leather
+Leather. Good for the sea. Floats, mostly. Smells of fish after a week.
+Leather's sensible on the water. Rub tallow into it or the salt will crack it.
+
+## warden.player.fire
+You're on fire! The sea! Use the sea! It's everywhere!
+Fire! Off the wall! No, wait, the sea steps! Either! Go!
+
+## warden.player.damaged
+That's barely holding together. Salt eats metal; mend it before your next fight.
+Your gear's seen better days. We've no smith out here, just a hammer and good intentions.

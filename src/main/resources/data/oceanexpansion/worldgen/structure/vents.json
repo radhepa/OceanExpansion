@@ -1,0 +1,186 @@
+{
+  "type": "oceanexpansion:site",
+  "biomes": "#oceanexpansion:has_site/vents",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "anchor": "seabed",
+  "depth": {
+    "min": 22,
+    "max": 60
+  },
+  "flatness": 10,
+  "radius": 20,
+  "layouts": [
+    {
+      "weight": 1,
+      "pieces": [
+        {
+          "template": "oceanexpansion:vents/field",
+          "x": 0,
+          "z": 0,
+          "y": -3,
+          "turn": 0,
+          "mode": "rigid",
+          "footing": false,
+          "soft": true
+        },
+        {
+          "template": "oceanexpansion:vents/shrine",
+          "x": -3,
+          "z": 4,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:vents/chimney_tall",
+          "x": 9,
+          "z": -8,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:vents/chimney_twin",
+          "x": -13,
+          "z": -9,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:vents/chimney_plume",
+          "x": 12,
+          "z": 9,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:vents/chimney_squat",
+          "x": -15,
+          "z": 14,
+          "y": -1,
+          "turn": 3,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:vents/spires",
+          "x": 1,
+          "z": -15,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:vents/spires",
+          "x": 17,
+          "z": -2,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "pieces": [
+        {
+          "template": "oceanexpansion:vents/field",
+          "x": 0,
+          "z": 0,
+          "y": -3,
+          "turn": 1,
+          "mode": "rigid",
+          "footing": false,
+          "soft": true
+        },
+        {
+          "template": "oceanexpansion:vents/shrine",
+          "x": 4,
+          "z": -3,
+          "y": -1,
+          "turn": 3,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:vents/chimney_tall",
+          "x": -9,
+          "z": 6,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:vents/chimney_twin",
+          "x": 11,
+          "z": 11,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:vents/chimney_plume",
+          "x": -12,
+          "z": -10,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:vents/chimney_squat",
+          "x": 14,
+          "z": -14,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:vents/spires",
+          "x": -1,
+          "z": 15,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:vents/spires",
+          "x": -17,
+          "z": 2,
+          "y": -1,
+          "turn": 3,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 5
+  },
+  "gives": {
+    "id": "minecraft:sea_lantern",
+    "count": 2
+  },
+  "max_uses": 8,
+  "xp": 15,
+  "reputation_discount": 0.05
+}

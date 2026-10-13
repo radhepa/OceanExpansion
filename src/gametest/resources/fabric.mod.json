@@ -1,0 +1,13 @@
+{
+	"schemaVersion": 1,
+	"id": "oceanexpansion-gametest",
+	"version": "1.0.0",
+	"name": "Ocean Expansion game tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": ["dev.oceanexpansion.test.SitesClientTest"]
+	},
+	"depends": {
+		"oceanexpansion": "*"
+	}
+}

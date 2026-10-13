@@ -1,0 +1,61 @@
+{
+  "variants": {
+    "facing=up": [
+      {
+        "model": "oceanexpansion:block/barnacles"
+      },
+      {
+        "model": "oceanexpansion:block/barnacles",
+        "y": 90
+      },
+      {
+        "model": "oceanexpansion:block/barnacles",
+        "y": 180
+      },
+      {
+        "model": "oceanexpansion:block/barnacles",
+        "y": 270
+      }
+    ],
+    "facing=down": [
+      {
+        "model": "oceanexpansion:block/barnacles",
+        "x": 180
+      },
+      {
+        "model": "oceanexpansion:block/barnacles",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "oceanexpansion:block/barnacles",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "oceanexpansion:block/barnacles",
+        "x": 180,
+        "y": 270
+      }
+    ],
+    "facing=north": {
+      "model": "oceanexpansion:block/barnacles",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "oceanexpansion:block/barnacles",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "oceanexpansion:block/barnacles",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west": {
+      "model": "oceanexpansion:block/barnacles",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

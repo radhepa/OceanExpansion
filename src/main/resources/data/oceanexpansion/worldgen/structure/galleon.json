@@ -1,0 +1,126 @@
+{
+  "type": "oceanexpansion:site",
+  "biomes": "#oceanexpansion:has_site/galleon",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "anchor": "seabed",
+  "depth": {
+    "min": 19,
+    "max": 40
+  },
+  "flatness": 9,
+  "radius": 30,
+  "layouts": [
+    {
+      "weight": 3,
+      "pieces": [
+        {
+          "template": "oceanexpansion:galleon/stern",
+          "x": -8,
+          "z": 0,
+          "y": -4,
+          "turn": 0,
+          "mode": "rigid",
+          "footing": false,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:galleon/bow",
+          "x": 16,
+          "z": 2,
+          "y": -3,
+          "turn": 0,
+          "mode": "floor",
+          "footing": false,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:galleon/debris",
+          "x": 4,
+          "z": 14,
+          "y": 0,
+          "turn": 0,
+          "mode": "floor",
+          "footing": false,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:galleon/foremast",
+          "x": 12,
+          "z": -14,
+          "y": 0,
+          "turn": 0,
+          "mode": "floor",
+          "footing": false,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:galleon/mizzen",
+          "x": -14,
+          "z": 15,
+          "y": 0,
+          "turn": 2,
+          "mode": "floor",
+          "footing": false,
+          "soft": false
+        }
+      ]
+    },
+    {
+      "weight": 2,
+      "pieces": [
+        {
+          "template": "oceanexpansion:galleon/stern",
+          "x": -9,
+          "z": 1,
+          "y": -4,
+          "turn": 0,
+          "mode": "rigid",
+          "footing": false,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:galleon/bow",
+          "x": 17,
+          "z": -4,
+          "y": -3,
+          "turn": 0,
+          "mode": "floor",
+          "footing": false,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:galleon/debris",
+          "x": -8,
+          "z": -15,
+          "y": 0,
+          "turn": 1,
+          "mode": "floor",
+          "footing": false,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:galleon/foremast",
+          "x": 16,
+          "z": 14,
+          "y": 0,
+          "turn": 3,
+          "mode": "floor",
+          "footing": false,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:galleon/mizzen",
+          "x": -4,
+          "z": 17,
+          "y": 0,
+          "turn": 0,
+          "mode": "floor",
+          "footing": false,
+          "soft": false
+        }
+      ]
+    }
+  ]
+}

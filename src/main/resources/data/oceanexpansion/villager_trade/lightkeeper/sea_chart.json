@@ -1,0 +1,45 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 8
+  },
+  "gives": {
+    "id": "minecraft:map",
+    "count": 1
+  },
+  "max_uses": 4,
+  "xp": 15,
+  "reputation_discount": 0.05,
+  "additional_wants": {
+    "id": "minecraft:compass",
+    "count": 1
+  },
+  "given_item_modifier": [
+    {
+      "type": "minecraft:exploration_map",
+      "destination": "#oceanexpansion:on_sea_charts",
+      "decoration": "minecraft:red_x",
+      "zoom": 2,
+      "search_radius": 60,
+      "skip_existing_chunks": true
+    },
+    {
+      "type": "minecraft:set_name",
+      "target": "item_name",
+      "name": {
+        "translate": "item.oceanexpansion.sea_chart"
+      }
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:map_id": {}
+        }
+      },
+      "on_fail": {
+        "type": "minecraft:discard"
+      }
+    }
+  ]
+}

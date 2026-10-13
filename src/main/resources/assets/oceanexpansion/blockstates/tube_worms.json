@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "oceanexpansion:block/tube_worms"
+      },
+      {
+        "model": "oceanexpansion:block/tube_worms",
+        "y": 90
+      },
+      {
+        "model": "oceanexpansion:block/tube_worms",
+        "y": 180
+      },
+      {
+        "model": "oceanexpansion:block/tube_worms",
+        "y": 270
+      }
+    ]
+  }
+}

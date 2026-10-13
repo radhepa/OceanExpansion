@@ -1,0 +1,86 @@
+{
+  "type": "oceanexpansion:site",
+  "biomes": "#oceanexpansion:has_site/whale",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "anchor": "seabed",
+  "depth": {
+    "min": 15,
+    "max": 50
+  },
+  "flatness": 9,
+  "radius": 24,
+  "layouts": [
+    {
+      "weight": 1,
+      "pieces": [
+        {
+          "template": "oceanexpansion:whale/halo",
+          "x": 0,
+          "z": 0,
+          "y": -3,
+          "turn": 0,
+          "mode": "rigid",
+          "footing": false,
+          "soft": true
+        },
+        {
+          "template": "oceanexpansion:whale/skeleton",
+          "x": 0,
+          "z": 0,
+          "y": -2,
+          "turn": 0,
+          "mode": "rigid",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:whale/strays",
+          "x": -10,
+          "z": -15,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "pieces": [
+        {
+          "template": "oceanexpansion:whale/halo",
+          "x": 0,
+          "z": 0,
+          "y": -3,
+          "turn": 2,
+          "mode": "rigid",
+          "footing": false,
+          "soft": true
+        },
+        {
+          "template": "oceanexpansion:whale/skeleton_turned",
+          "x": 0,
+          "z": 0,
+          "y": -2,
+          "turn": 0,
+          "mode": "rigid",
+          "footing": true,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:whale/strays",
+          "x": -10,
+          "z": 15,
+          "y": -1,
+          "turn": 3,
+          "mode": "floor",
+          "footing": true,
+          "soft": false
+        }
+      ]
+    }
+  ]
+}

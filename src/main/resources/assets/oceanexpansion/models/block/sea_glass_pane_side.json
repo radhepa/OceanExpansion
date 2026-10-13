@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side",
+  "textures": {
+    "edge": {
+      "sprite": "oceanexpansion:block/sea_glass_pane_top",
+      "force_translucent": true
+    },
+    "pane": {
+      "sprite": "oceanexpansion:block/sea_glass",
+      "force_translucent": true
+    }
+  }
+}

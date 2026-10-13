@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "oceanexpansion:block/contraband_crate"
+    },
+    "facing=east": {
+      "model": "oceanexpansion:block/contraband_crate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "oceanexpansion:block/contraband_crate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "oceanexpansion:block/contraband_crate",
+      "y": 270
+    }
+  }
+}

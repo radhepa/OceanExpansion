@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,pearl=true": {
+      "model": "oceanexpansion:block/giant_clam_pearl"
+    },
+    "facing=north,pearl=false": {
+      "model": "oceanexpansion:block/giant_clam"
+    },
+    "facing=east,pearl=true": {
+      "model": "oceanexpansion:block/giant_clam_pearl",
+      "y": 90
+    },
+    "facing=east,pearl=false": {
+      "model": "oceanexpansion:block/giant_clam",
+      "y": 90
+    },
+    "facing=south,pearl=true": {
+      "model": "oceanexpansion:block/giant_clam_pearl",
+      "y": 180
+    },
+    "facing=south,pearl=false": {
+      "model": "oceanexpansion:block/giant_clam",
+      "y": 180
+    },
+    "facing=west,pearl=true": {
+      "model": "oceanexpansion:block/giant_clam_pearl",
+      "y": 270
+    },
+    "facing=west,pearl=false": {
+      "model": "oceanexpansion:block/giant_clam",
+      "y": 270
+    }
+  }
+}

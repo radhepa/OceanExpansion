@@ -1,0 +1,88 @@
+{
+  "structures": [
+    {
+      "structure": "oceanexpansion:lighthouse",
+      "weight": 2
+    },
+    {
+      "structure": "oceanexpansion:fort",
+      "weight": 2
+    },
+    {
+      "structure": "oceanexpansion:galleon",
+      "weight": 3
+    },
+    {
+      "structure": "oceanexpansion:whale",
+      "weight": 2
+    },
+    {
+      "structure": "oceanexpansion:temple",
+      "weight": 2
+    },
+    {
+      "structure": "oceanexpansion:grotto",
+      "weight": 2
+    },
+    {
+      "structure": "oceanexpansion:bell",
+      "weight": 2
+    },
+    {
+      "structure": "oceanexpansion:smugglers",
+      "weight": 2
+    },
+    {
+      "structure": "oceanexpansion:iceberg",
+      "weight": 2
+    },
+    {
+      "structure": "oceanexpansion:vents",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "oceanexpansion:spread",
+    "spacing": 22,
+    "separation": 8,
+    "salt": 1186034211,
+    "avoid": [
+      {
+        "set": "minecraft:villages",
+        "chunks": 4
+      },
+      {
+        "set": "minecraft:ocean_monuments",
+        "chunks": 4
+      },
+      {
+        "set": "minecraft:ocean_ruins",
+        "chunks": 2
+      },
+      {
+        "set": "minecraft:shipwrecks",
+        "chunks": 2
+      },
+      {
+        "set": "villagefriends:homesteads",
+        "chunks": 2
+      },
+      {
+        "set": "plataclan:dens",
+        "chunks": 2
+      },
+      {
+        "set": "plataclan:warrens",
+        "chunks": 3
+      },
+      {
+        "set": "seafriends:merfolk_villages",
+        "chunks": 5
+      },
+      {
+        "set": "seafriends:prismari_courts",
+        "chunks": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "type": "oceanexpansion:site",
+  "biomes": "#oceanexpansion:has_site/bell",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "anchor": "seabed",
+  "depth": {
+    "min": 10,
+    "max": 30
+  },
+  "flatness": 9,
+  "radius": 14,
+  "layouts": [
+    {
+      "weight": 2,
+      "pieces": [
+        {
+          "template": "oceanexpansion:bell/bell",
+          "x": 0,
+          "z": 0,
+          "y": -1,
+          "turn": 0,
+          "mode": "rigid",
+          "footing": false,
+          "soft": true
+        },
+        {
+          "template": "oceanexpansion:bell/barge",
+          "x": 0,
+          "z": 0,
+          "y": -3,
+          "turn": 0,
+          "mode": "surface",
+          "footing": true,
+          "soft": true
+        },
+        {
+          "template": "oceanexpansion:bell/salvage",
+          "x": 7,
+          "z": -8,
+          "y": 0,
+          "turn": 0,
+          "mode": "floor",
+          "footing": false,
+          "soft": false
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "pieces": [
+        {
+          "template": "oceanexpansion:bell/bell",
+          "x": 0,
+          "z": 0,
+          "y": -1,
+          "turn": 1,
+          "mode": "rigid",
+          "footing": false,
+          "soft": true
+        },
+        {
+          "template": "oceanexpansion:bell/barge",
+          "x": 0,
+          "z": 0,
+          "y": -3,
+          "turn": 2,
+          "mode": "surface",
+          "footing": true,
+          "soft": true
+        },
+        {
+          "template": "oceanexpansion:bell/salvage",
+          "x": -9,
+          "z": 5,
+          "y": 0,
+          "turn": 3,
+          "mode": "floor",
+          "footing": false,
+          "soft": false
+        }
+      ]
+    }
+  ]
+}

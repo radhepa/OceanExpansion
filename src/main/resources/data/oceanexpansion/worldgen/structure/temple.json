@@ -1,0 +1,86 @@
+{
+  "type": "oceanexpansion:site",
+  "biomes": "#oceanexpansion:has_site/temple",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "anchor": "seabed",
+  "depth": {
+    "min": 20,
+    "max": 45
+  },
+  "flatness": 9,
+  "radius": 24,
+  "layouts": [
+    {
+      "weight": 1,
+      "pieces": [
+        {
+          "template": "oceanexpansion:temple/sanctum",
+          "x": 0,
+          "z": 0,
+          "y": -10,
+          "turn": 0,
+          "mode": "rigid",
+          "footing": false,
+          "soft": true
+        },
+        {
+          "template": "oceanexpansion:temple/colonnade",
+          "x": 19,
+          "z": -6,
+          "y": -2,
+          "turn": 0,
+          "mode": "floor",
+          "footing": false,
+          "soft": true
+        },
+        {
+          "template": "oceanexpansion:temple/obelisk",
+          "x": -20,
+          "z": -17,
+          "y": -2,
+          "turn": 0,
+          "mode": "floor",
+          "footing": false,
+          "soft": true
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "pieces": [
+        {
+          "template": "oceanexpansion:temple/sanctum",
+          "x": 0,
+          "z": 0,
+          "y": -10,
+          "turn": 0,
+          "mode": "rigid",
+          "footing": false,
+          "soft": true
+        },
+        {
+          "template": "oceanexpansion:temple/colonnade",
+          "x": -19,
+          "z": 8,
+          "y": -2,
+          "turn": 2,
+          "mode": "floor",
+          "footing": false,
+          "soft": true
+        },
+        {
+          "template": "oceanexpansion:temple/obelisk",
+          "x": 20,
+          "z": 16,
+          "y": -2,
+          "turn": 1,
+          "mode": "floor",
+          "footing": false,
+          "soft": true
+        }
+      ]
+    }
+  ]
+}

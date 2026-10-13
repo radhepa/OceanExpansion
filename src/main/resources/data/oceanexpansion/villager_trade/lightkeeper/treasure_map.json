@@ -1,0 +1,37 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 14
+  },
+  "gives": {
+    "id": "minecraft:buried_treasure_map",
+    "count": 1
+  },
+  "max_uses": 2,
+  "xp": 30,
+  "reputation_discount": 0.05,
+  "additional_wants": {
+    "id": "minecraft:compass",
+    "count": 1
+  },
+  "given_item_modifier": [
+    {
+      "type": "minecraft:exploration_map",
+      "destination": "#minecraft:on_treasure_maps",
+      "decoration": "minecraft:red_x",
+      "zoom": 1,
+      "skip_existing_chunks": false
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:map_id": {}
+        }
+      },
+      "on_fail": {
+        "type": "minecraft:discard"
+      }
+    }
+  ]
+}

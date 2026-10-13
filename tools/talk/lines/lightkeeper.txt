@@ -1,0 +1,399 @@
+# Lightkeeper: the lone keeper of a Lighthouse Isle ({place} = "Gull Point Light", "Lantern Skerry"...).
+# Several keepers share this file: no fixed backstory, no pronouns for the keeper, no {captain}/{chief}
+# (a keeper never has either as a neighbour).
+#
+# SHARED COAST CANON (keep identical across lightkeeper / warden / captain / smuggler / chief):
+# - Tidewatch: "We keep the light." Blue banner, white light. Forts keep a Tide Log. Sworn wardens wear a
+#   blue cord on the wrist; recruits "swim the gate" (sea gate, round the reef, back, at night).
+#   Corwen the First Keeper: kept a driftwood fire alive on a bare rock three nights for a wrecked crew.
+#   The High Warden writes once a season ("keep vigilant"). When a light goes dark, every fort lights its
+#   brazier: "the chain of fires".
+# - Fort Hake: the rival Tidewatch fort. Wins the Lantern Shoot (archery by lantern light) every year,
+#   eleven years running. Lost its boat in the Three-Day Blow; found a month later up a tree inland.
+# - Lightkeepers: mostly old Tidewatch hands. Lamp Log every night. Sea Charts drawn from sailors' talk,
+#   the truth is in the margins. Storm glass: clear = fair, cloudy = rain, "feathers" = storm.
+#   Keeper's saying: "Wick trimmed, glass clean, keeper awake." And: "A light doesn't ask whose boat it is."
+#   Keeper's tea: black, strong enough to stand a spoon in, a pinch of salt for luck. The supply boat comes
+#   when it comes. Fog bell rung every half minute.
+# - Brine Brotherhood: "No names on the water." Every Brotherhood boat is called the Maybe ("Whose boat?"
+#   "Maybe."). They call the Tidewatch "the Candles"; the Tidewatch calls them "Briners". The Brine Articles:
+#   no names on the water, never douse a light, throw the cargo not the crew, share the salt even, nothing
+#   that cries. They leave gifts (eggs, honey, silk) on lighthouse jetties; keepers never log their boats.
+# - Barnacle: the Golden Heron's ship's cat came ashore on a spar after the Heron Gale; every ship's, fort's,
+#   lighthouse's and smugglers' cat on the coast since is named Barnacle. It comes and goes for fish heads.
+# - The Heron Gale: the old storm (green sky) that sank the Golden Heron and its fleet. Captain Ysolde Marrow
+#   went down with her ship; some say she still keeps it. "The Heron's lamp": a gold glow under the water on
+#   some nights. "A coin for Ysolde": sailors drop a coin passing deep water.
+# - The Three-Day Blow: the great storm in living memory. Every light on the coast stayed lit. The
+#   Brotherhood was stuck a week in its stacks and ate a fig cargo.
+# - Wexley: Bartholomew Wexley, diving bell. Saying: "An hour's air and a minute's sense." Paid keepers in
+#   copper nails. Barge found riding at anchor over the bell, nobody aboard.
+# - The Northward: Arvid Strand's expedition ship, sailed north, never came back; log ends mid-sentence.
+#   Half the lights on the coast claim to be the last one that saw it.
+# - Old Tide: sea-stone ruins carved with one great eye. "Don't stare back at the Eye."
+# - Sea Friends (seafolk pool only): merfolk = half villagers with fish tails, coral reef towns; Prismari =
+#   tall one-eyed spined folk of the deep, said to have built the monuments; a single green glow far below a
+#   boat. Hint at the Old Tide eye, never say they're descended.
+#
+# KEEPER'S OWN: the gulls own the gallery rail; the biggest tide-pool crab is called Admiral; the rock's one
+# sideways tree; the step count never comes out the same twice; a page at the back of the Lamp Log for the
+# boats that never came home; the crack in the lamp room glass shaped like a heron.
+
+## lightkeeper.greet
+Ah, a visitor. Mind the third plank on the jetty; it's been loose since spring.
+Welcome to {place}. The kettle's always on, and the gulls are always rude.
+Hello there. You've come on a quiet {time}; the lamp and I were just keeping each other company.
+Ahoy, {player}. Wipe your boots if you're coming in. I've only just swept the sand out.
+Well now, a face that isn't a gull. Come in, come in.
+You found the rock. Most people only see the light and keep sailing.
+Hello! Don't mind the smell of lamp oil. After a few years you stop noticing it. Mostly.
+Keeper {name}, at your service. The light's mine to mind, and so is anyone who washes up.
+Greetings from {place}, where the wind never stops and neither does the kettle.
+Ahoy! Careful on the rocks; the weed is slippery as a fish's conscience.
+Oh, hello. I talk to the lamp so often that it's a treat to hear someone answer.
+Come out of the spray, {player}. There's room by the stove for one more.
+Hello, hello. If you've brought news from the mainland, I'll trade you a cup of keeper's tea for it.
+Another boat, another story. Sit down and tell me yours.
+Welcome ashore, such as it is. The whole island takes about forty paces to walk round.
+Ahoy, {player}! You've the look of someone who's been at sea a while. Steady legs come back, I promise.
+Fine {time} for a visit. Watch your head on the lintel; the cottage was built for shorter keepers.
+
+## lightkeeper.greet.stranger
+A stranger on my rock. That doesn't happen every month, or even every season.
+I don't know your face, but the light saw your boat coming an hour ago. Welcome.
+New here? Three things to know: the kettle's left of the stove, the stairs are steep, and the gulls bite.
+You'll be wanting a chart, I expect. Most strangers do. Sit and talk first; charts come later.
+Hello, stranger. A light doesn't ask whose boat it is, and neither do I.
+You're not Tidewatch and you're not the supply boat. Lost, then, or curious? Either is welcome.
+Oh! I nearly took you for a seal. Pardon me, my eyes are made for distances.
+
+## lightkeeper.greet.friend
+{player}! I wrote you into the Lamp Log last time, you know. "Friend called. Ate all the biscuits."
+There you are. I kept the good cup aside for you, the one without the chip.
+My favourite visitor. Don't tell the supply boat.
+{player}, welcome back. The gulls have been unbearable without you.
+Ah, it's you. Pull up the crate by the window; it's yours as far as I'm concerned.
+I saw your sail and put the kettle on before you'd even tied up.
+Back again, {player}? Good. The rock feels smaller when you're gone, and that's saying something.
+
+## lightkeeper.greet.morning
+Morning. Lamp's just out, log's just written, and I'm about to fall asleep standing up.
+Good morning! You've caught me between the night's watch and a very long nap.
+Morning, {player}. Sun's up, so the lamp can rest. I can't, not till the glass is polished.
+Morning tide's out. Best time for the tide pools, if you like crabs that pinch.
+Ah, morning. Every dawn I count the boats that made it through the night. I'll add yours to the tally.
+
+## lightkeeper.greet.evening
+Evening. I'm about to climb up and light the lamp. Walk up with me, if your legs are willing.
+Good evening. The sun's going down, so my working day's just starting.
+Evening, {player}. Hear that? The wind always turns about now. It's practically a clock.
+Evening already? I've a wick to trim and glass to wipe. Talk while I work.
+Ah, evening, my favourite hour. The sea goes gold, then grey, and then it's the lamp's turn.
+
+## lightkeeper.greet.night
+You're out late. Mind the stair rail at night; it's cold enough to stick to.
+Hello, night owl. Keep your voice low; the gulls are asleep and I'd like them to stay that way.
+Come up into the light. Truly. It's the brightest place for half a day's sail in any direction.
+Quiet night. I like the quiet ones best, though they make for a dull Lamp Log.
+Ahoy, night visitor. I was just talking to the lamp. Good listener, poor conversationalist.
+
+## lightkeeper.chat
+The lamp burns from dusk till dawn, not a moment early and not a moment late. Lives ride on a lamp being on time.
+I keep a Lamp Log: the hour I lit it, the wind, the sea, every sail I see. Nobody reads it, but if they ever need to, it'll be right.
+Every chart I sell is drawn from sailors' talk. A fisher mentions a wreck, a trader mentions a strange rock, and down it goes in ink.
+A light doesn't ask whose boat it is. Tidewatch, fisher, merchant, Brotherhood: the rocks are just as hard for all of them.
+The gulls here have opinions. Mostly about my lunch.
+You'd think the sea sounds the same every day. It doesn't. I can hear a storm two days off in the way the waves slap the jetty.
+There's a storm glass on my windowsill. Clear means fair, cloudy means rain, and when it grows little feathers, I bring the washing in and hope.
+People ask if I get lonely. I've got the lamp, the log, the gulls and the whole horizon. Bored, sometimes. Lonely, rarely.
+A cat called Barnacle turns up whenever I'm gutting fish. Every cat on this coast is called Barnacle, after the Golden Heron's cat.
+I've counted the steps up to the lamp every night for years and never got the same number twice. Tiredness or ghosts. I prefer tiredness.
+The supply boat comes when it comes. I keep enough oil, flour and patience to last until it does.
+Keeper's tea is black tea, strong enough to stand a spoon in, with a pinch of salt for luck. Don't make that face.
+Most keepers stood a Tidewatch wall once. You learn to keep a watch at a fort, and you never quite unlearn it.
+On a clear night I can see three other lights from the gallery, if I squint and believe hard enough.
+If you hear a bell in the fog, that's me. One ring every half minute, all night, so boats know where the rock is even when they can't see it.
+The rock has one tree. It grows sideways, away from the wind, as if it's trying to leave.
+I sell storm glasses to sailors who've been caught out once. Nobody buys one before their first bad storm.
+The tide pools are full of little crabs. I've named the biggest one Admiral. It doesn't answer to it.
+A wave came over the jetty once, clean over, and took my boots with it. Left the feet. I was grateful for the arrangement.
+Somebody leaves things on the jetty now and then: eggs, a jar of honey, once a bolt of silk. Thanks for the light, I suppose. I never see who.
+The Tidewatch says "we keep the light." Keepers say "wick trimmed, glass clean, keeper awake." Same idea, fewer swords.
+I've seen dark sloops slip past at night with their lanterns hooded. I don't log their names. They don't have any.
+There's a crack in the lamp room glass shaped like a heron. I've decided that's a good omen.
+You learn the sea by its colours: green over the reef, blue in the deep, grey before weather, and black at night, which is my shift.
+My charts have notes in the margins. "Rock here." "Wreck here." "Fisher says monster here; fisher was drunk." All useful.
+Salt gets into everything: the bread, the bedding, the hinges, the ink. I suspect it's got into me as well, by now.
+The lamp room's warm even in winter. Best seat on the rock, and the worst stairs to reach it.
+I write to the other keepers whenever the supply boat runs. Mostly we complain about gulls.
+Fog's the worst. A storm you can fight, but fog just sits on the water and dares you to guess.
+I was told a lighthouse should have a cat, a kettle and a keeper, in that order of importance.
+When a ship's in trouble, I flash the signal lamp red toward the nearest fort. Then, half the time, I row out myself while the Tidewatch finds its boots.
+
+## lightkeeper.chat.new
+You'll want to know what I do. I keep the lamp lit, I write down what the sea does, and I sell charts to anyone who asks nicely.
+Heading out to sea? Buy a chart first. They're drawn from a hundred sailors' talk, and a hundred sailors are seldom all wrong.
+Look around all you like. Just don't touch the lens; a fingerprint takes an hour to polish off.
+This is {place}. It's a rock, a tower, a cottage and a jetty. Everything else is water.
+I'm {name}, the keeper here. If I seem a bit odd, it's because you're the first person I've spoken to in weeks.
+Strangers always ask the same things first. Yes, I sleep in the day. No, the lamp doesn't light itself.
+
+## lightkeeper.chat.close
+I don't tell many people this, {player}, but I keep a page at the back of the Lamp Log just for the boats that never came home.
+When I see your sail, the whole sea looks a bit friendlier. Silly, for an old keeper.
+If I ever can't climb those stairs anymore, I'd want someone like you to keep this light. Not yet. One day. Think about it.
+I've started marking your visits in the log with a little star. Don't let it go to your head.
+You're the only one who's ever asked how I am, rather than how the weather is. I noticed.
+Here, sit at the window. That's the best view in the world, and I only share it with friends.
+When the Three-Day Blow came, I wished I'd had someone to talk to up there. Next big storm, you're welcome to sit it out with me.
+
+## lightkeeper.past
+Like most keepers, I stood my watches on a Tidewatch wall first. Same job, really: stay awake and stare at the water.
+The Three-Day Blow, they call it now. Three days the wind screamed, and every light on this coast stayed lit. Every one. We're proud of that.
+Corwen, the First Keeper, kept a driftwood fire alive on a bare rock for three nights so a wrecked crew could find the shore. That's where "we keep the light" comes from.
+I sold old Wexley a chart once, the diving bell fellow. Wanted every wreck within a week's sail and paid me in copper nails.
+I've met keepers who swear they saw the Northward pass on its way north. Half the lights on this coast claim to be the last one that saw it.
+The Golden Heron went down in the Heron Gale, long before my time. The old keepers wrote it in their logs: the sky went green, and then it went black.
+I learned my letters from an old Lamp Log. Wind, sea, sails. The first word I could spell was "squall."
+There was a winter the sea froze round the rock. I walked to the end of the jetty and kept walking. Didn't get far before I lost my nerve.
+A sailor once rowed all the way out here just to thank me for a night years ago, when the light got them home. I'd never met them. That's the job.
+I didn't choose the sea, exactly. The sea sort of chose me, and it's a poor listener when you try to argue.
+I remember my first night alone at the lamp. Every creak was a sea monster. Now every creak is just the tower stretching.
+The old Tidewatch sergeants made recruits swim the sea gate at night. Every keeper who did it still dreams about how cold it was.
+A keeper I knew logged a waterspout so close the gulls were sucked up and dropped on the mainland. The gulls came back the next day, furious.
+
+## lightkeeper.night
+Nights like this, it's just me, the lamp and the hiss of the wick. I wouldn't trade it, though I'd trade the stairs.
+Look out there. Every light you see on the water is someone who trusts mine.
+I'm writing tonight's Lamp Log. Lit at dusk, wind from the west, one fishing boat, one gull with ideas about my supper.
+At night the sea sounds bigger. It isn't. It's just showing off when nobody can see it.
+Some nights, far out, I see a gold glow under the water. Old sailors call it the Heron's lamp. I write it down and try not to think too hard.
+Can't sleep? Me neither; it comes with the job. Come up to the gallery. The stars are thick tonight.
+At midnight I trim the wick, top up the oil and wipe the glass again. The salt never sleeps, so neither do I.
+
+## lightkeeper.work
+Wick trimmed, glass clean, keeper awake. That's the whole job, and it's harder than it sounds at three in the morning.
+Every morning I polish the lens. Salt mist dulls it overnight, and a dull light might as well be dark.
+I draw Sea Charts from what sailors tell me. Every wreck, reef and rock goes in, with a note on who said it and whether I believed them.
+The signal lamp's for talking to ships. Long flashes, short flashes. Mostly I say "rocks here" and "go away, rocks."
+Oil, wick, matches, glass cloth, the Log. Run out of any one and the light goes dark, so I keep three of everything.
+A storm glass is the cheapest lifesaver at sea. Watch the crystals: when they rise like feathers, find a harbour.
+In fog I ring the bell every half minute, all night. My arms ache for days. The boats don't hit the rock. Fair trade.
+I write the Lamp Log every night, even when nothing happens. "Nothing happened" is good news to somebody.
+The jetty needs mending after every storm. I've replaced every plank at least twice. Is it even the same jetty?
+I scrape the gull mess off the gallery rail every week. Glamorous life, keeping a light.
+My charts aren't perfect. The sea shifts sand and moves wrecks. But a chart that's mostly right beats a sea that's entirely unknown.
+I check the storm glass at dawn and dusk, and write what it said beside the weather that came. The glass is right more often than the fishers.
+Oil goes up the stairs one jug at a time. That's how I stay young: fear of the stairs.
+I mend nets for the fishers who pass by. They pay me in fish, the only coin the gulls respect.
+Every chart gets a copy for the Lamp Log before I sell it. If a sailor's lost, somebody should know where they meant to go.
+
+## lightkeeper.adventure
+Going out on the water? Take a storm glass and a chart. The glass tells you when, the chart tells you where.
+Sailors say the Golden Heron's out there somewhere, still full of gold, and its captain still walks the deck. Take a light if you go down.
+Diving? Mind your breath. Old Wexley used to say "an hour's air and a minute's sense." He had a bell for the air. You'll need the sense.
+The sea floor has things nobody's seen in a hundred years: temples with a great carved eye, ships, bones as long as a street. All of it waiting.
+If you find a wreck, mark where. Then come and tell me, and I'll put it on a chart so the next fool can find it too.
+Pearls grow in the warm shallows, in clams bigger than a barrel. The old pearl divers kept a grotto secret enough that I never found it.
+Up north there's an iceberg with a whole ship frozen inside it, they say: the Northward. Bring warm socks. Then bring more warm socks.
+Don't sail into a storm to prove a point. The sea doesn't care about your point.
+If you see a carving of one great eye under the water, the Old Tide made it. Sailors say don't stare back at the Eye. I'd add: don't touch anything, either.
+Pick a direction, any direction. The sea's full of stories every way you point; that's the trouble and the joy of it.
+
+## lightkeeper.joke
+Why don't lighthouses ever win at cards? Everyone sees them coming.
+What does a keeper say when the lamp goes out? Nothing. It's too dark to find the Lamp Log.
+A gull walks into the cottage. I say, "What'll it be?" It takes my sandwich. That's not a joke; that's my Tuesday.
+How many keepers does it take to change a wick? One, but they'll write three pages about it in the log.
+What did the sea say to the rock? Nothing, it just waved. I've been saving that one for months. Laugh, please.
+They say keeping a light is the loneliest job on the coast. Not true. The gulls never leave.
+Why did the storm glass stop speaking to the weathervane? Too much pressure, and the weathervane kept changing its mind.
+I asked a warden how to tell a smuggler's sloop from a fishing boat. "The fishing boat smells of fish." And the sloop? "Pepper and lies."
+A smuggler once asked me to dim the light so their boat could slip by. I told them about the rocks. They changed their minds very quickly.
+What's a keeper's favourite meal? A light supper.
+Barnacle the cat sat on my chart and left a paw print where a reef should be. I've decided it's a new island.
+
+## lightkeeper.news
+The storm glass has been cloudy three mornings running. Rain coming. Lots of it.
+A fisher told me a new reef is growing on an old wreck to the south. Coral grows on anything if you leave it long enough.
+The supply boat's late again. I'm down to my last jar of honey, and my patience is following it.
+A Tidewatch boat passed at dawn under the blue banner, rowing hard. Somebody's in a hurry.
+Gulls nested in the lamp room chimney again. I evicted them politely. They'll be back tomorrow, less politely.
+A drowned crawled up the beach last week, waterlogged and grumbling. I hit it with an oar till it went back.
+Fort Hake won the Lantern Shoot again, I hear. The Tidewatch takes that archery contest more seriously than the actual sea.
+A dark sloop's been slipping past at night with no lights. I logged it as "a boat, probably." The Lamp Log doesn't do gossip.
+Somebody left a basket of eggs on the jetty. I've had eggs for every meal since, and I'm starting to cluck.
+The tides have been running high. The old keepers wrote that the sea breathes in before a big storm.
+
+## lightkeeper.heart
+I keep the light for people I'll never meet. Some nights that feels like the loneliest thing in the world, and some nights the kindest.
+On bad nights I read the page at the back of the Lamp Log, the one for the boats that didn't come home. Then I go up and trim the wick.
+I used to think the sea was cruel. Now I think it just doesn't know we're here. The light is how we tell it.
+When the sun comes up after a storm and the sea's flat as glass, I always cry a little. Officially, it's the salt.
+People think keepers want to be alone. Not true. We just want to be useful, and this is where it's needed.
+I wonder sometimes who'll keep this light after me. I hope they talk to the lamp. It's used to it.
+Every ship that passes safely is a thank-you I'll never hear. I've decided to hear it anyway.
+Someone I loved went out on a boat once and came back fine. That's the whole story, and it's the story I want for everyone.
+If you ever feel lost, {player}, find a light. Any light. Someone's keeping it for you.
+
+## lightkeeper.rumor
+Sailors tell me there's {rumor_name}, out {rumor_dir}. I've put it on a chart: {rumor_dist}, near enough.
+A fisher swore to me there's {rumor_name} to the {rumor_dir}. They were sober, too, which is what convinced me.
+If you want something to find, try {rumor_dir}. They say there's {rumor_name}, {rumor_dist} from this rock.
+Out {rumor_dir}, {rumor_dist}: {rumor_name}. That's as much as I'll say without selling you a chart.
+The Lamp Log has a note from a passing trader: {rumor_name}, somewhere {rumor_dir}. I underlined it twice.
+On clear days I've stood on the gallery, looked {rumor_dir} and wondered about {rumor_name}. Never had the boat for it.
+Half my charts point {rumor_dir} these days, toward {rumor_name}. The sailors can't stop talking about it.
+The gulls come back from the {rumor_dir} fat and smug. A fisher says there's {rumor_name} that way. Maybe the gulls know.
+Have this one for free: {rumor_name}, {rumor_dir} of here, {rumor_dist}. Tell me what you find and I'll draw it properly.
+They say there's {rumor_name} out {rumor_dir}. I'd go myself, but somebody has to keep the light.
+
+## lightkeeper.rumor.none
+I've no fresh rumours for you. The sailors have been dull lately, or I've been asleep when they passed.
+Nothing new on the charts. The sea's keeping its secrets this season.
+No word of anything worth the sail. Ask me again after the next supply boat.
+The fishers have only brought me weather and gossip lately. No wrecks, no wonders.
+My charts are blank past a day's sail in every direction. Go and fill them in for me.
+
+## lightkeeper.seafolk
+Merfolk come up by the rock some nights and watch the lamp. They wave; I wave back. That's our whole friendship, and it's a good one.
+A merfolk child once left a shell on my jetty, the prettiest I've ever seen. I left a biscuit. By morning it was gone, and there was a second shell.
+The merfolk live in reef towns of coral, they say, glowing under the water like a village at night. I'd love to see one. My lungs disagree.
+Fishers whisper about the Prismari: tall, spined folk of the deep with one great eye. The same eye as the Old Tide carvings. Make of that what you will.
+I once drew a merfolk reef town on a chart from a sailor's tale. Then I rubbed it out. Some places should only be found by the polite.
+They say the Prismari built the great sea-stone halls down in the deep. I can't say. I only know nobody else seems to have.
+A merfolk surfaced by the jetty once and asked, very seriously, why we keep a fire on a stick. I explained lighthouses for an hour. Very patient listener.
+Sailors say a single green glow far beneath your boat is a Prismari looking up. Wave, I'd say. Manners cost nothing.
+The merfolk know the wrecks better than any chart of mine. One told me the Golden Heron's cabin still has a lamp in it, and wouldn't say who keeps it lit.
+
+## lightkeeper.held.pickaxe
+Not much to mine out here, unless you fancy carving a cellar under my lighthouse. Please don't.
+A pickaxe at sea? The coral would like a word.
+
+## lightkeeper.held.sword
+Good. Use it on the drowned if they come up the beach. They come up the beach more than I'd like.
+Fine blade. Wipe it after every swim, or the salt will eat it by morning.
+
+## lightkeeper.held.axe
+If you're after wood, there's one tree on this rock and I'm very attached to it.
+Handy. Driftwood comes ashore after every storm, if you'd care to split some for my stove.
+
+## lightkeeper.held.shovel
+Dig on the beach if you like. You'll find shells, crab claws and, once, somebody's spoon.
+Treasure hunters always bring shovels. The treasure's always under twenty fathoms of water.
+
+## lightkeeper.held.bow
+A bow on my rock. You'd make a fine Tidewatch archer, though Fort Hake would still win the Lantern Shoot.
+The gulls are protected here, {player}. Even the rude ones. Especially the rude ones; they've earned it.
+
+## lightkeeper.held.shield
+Tidewatch knights carry shields like that. Some of them paint a little lighthouse on the front.
+Good in a storm, a shield. Hold it against the spray and you can almost keep your supper dry.
+
+## lightkeeper.held.torch
+A light! Every light helps. Just mind you don't drop it in my oil store.
+You carry your own light. Good habit. The sea's darker than people think.
+
+## lightkeeper.held.ore
+Keep that {item} dry. Salt air gets into everything out here.
+If you've ore to sell, the supply boat buys it. The supply boat buys anything; that's how I got this chair.
+
+## lightkeeper.held.diamond
+A diamond! Hold it up to the lamp tonight; it'll throw light all over the room like a little lens.
+That would make a fine lens. Don't let me near it with a polishing cloth.
+
+## lightkeeper.held.gold
+Gold. They say the Golden Heron went down with a hold full of that. Plenty of divers have the bruises from looking.
+Drop a coin for Ysolde when you pass deep water, the old sailors say. Yours look lucky already.
+
+## lightkeeper.held.emerald
+An emerald, out here? The sea's own colour, in a stone. Fitting.
+Green as the reef on a sunny day. Keep it safe; the gulls steal shiny things.
+
+## lightkeeper.held.food
+Is that {item}? I've lived on fish stew and biscuits for a month. Not a hint. Just a fact. A loud fact.
+Food! Careful; the gulls can smell it from the far side of the island.
+
+## lightkeeper.held.map
+Is that one of my charts? I can always tell by the margins. Mine say things like "here be crabs."
+A map! Let me see. Hmm. Whoever drew this has never actually seen a reef.
+
+## lightkeeper.held.compass
+A compass is good. A compass and a lighthouse is better. A compass, a lighthouse and a storm glass is how old keepers get old.
+Mind it up in the lamp room. The old iron in the railings sets the needle wandering.
+
+## lightkeeper.held.book
+A book! Fresh reading, at last. I've read the Lamp Log so often I can recite last spring's winds.
+Do you keep a log? You should. Even if it's only "Ate. Slept. Sea was wet."
+
+## lightkeeper.held.tnt
+Not near the oil, {player}. Not anywhere near the oil.
+If that goes off on this rock, tonight's Lamp Log entry will be very short and very loud.
+
+## lightkeeper.held.potion
+A potion? I've heard of brews that let you breathe under water. Old Wexley would have wept for joy.
+Whatever's in that bottle, I hope it's for seasickness.
+
+## lightkeeper.held.flower
+A flower! Nothing grows on this rock but sea thrift and stubbornness. Thank you for showing me.
+That would look lovely in a jar on my windowsill. I'm only saying.
+
+## lightkeeper.held.bucket
+A bucket. If that's sea water, you've brought it to the one place with plenty.
+Handy at sea. If your boat springs a leak, bail first and pray second.
+
+## lightkeeper.held.trident
+A trident! The drowned carry those. Either you took it off one, or you're braver than most.
+Old sailors say a trident remembers the hand that threw it. Hold that one gently.
+
+## lightkeeper.held.fishing_rod
+Fishing! Cast off the end of the jetty; the mackerel come in with the evening tide.
+A fellow fisher. The big ones lurk in the jetty's shadow. Mind the barnacles on the posts.
+
+## lightkeeper.held.shell
+That's a fine shell. Hold it to your ear; the old keepers said you can hear the storm that made it.
+That came up from deep water. Somebody's been diving.
+
+## lightkeeper.held.pearl
+A pearl! Out of a giant clam, I'd wager. The old pearl divers would be proud.
+Hold it to the lamp. See the light swim inside it? That's why people dive for them.
+
+## lightkeeper.held.fish
+Fresh fish! Don't let Barnacle see. That cat can smell fish through a shut door.
+Nice catch. Gut it on the rocks and the gulls will do the cleaning for you.
+
+## lightkeeper.held.boat
+A spare boat! Wise. You'd be surprised how many sailors only carry one.
+Pull your boat up past the weed line, or the tide will take it home to someone else.
+
+## lightkeeper.held.spyglass
+A spyglass! Bring it up to the gallery; on a clear day you can see three other lights from there.
+With that, you could read my Lamp Log from the jetty. Please don't. It's mostly about gulls.
+
+## lightkeeper.player.hurt
+You're hurt. Sit down. I've bandages, and a salve that smells awful and works wonders.
+Drowned get you? Or the rocks? Either way, sit by the stove a while.
+
+## lightkeeper.player.hungry
+You look starved. There's fish stew on the stove. There's always fish stew. It's very good fish stew.
+Have a ship's biscuit. They're hard as the rock, but they fill a hole.
+
+## lightkeeper.player.unarmored
+No armour at sea? Clever, in a way; armour sinks. But the drowned climb out sometimes, so do wear some ashore.
+You're dressed light for a coast with drowned on it. Brave, or very lucky.
+
+## lightkeeper.player.diamond
+Diamond armour on a lighthouse rock! Fall in and you'll sink like an anchor. A very shiny anchor.
+That armour catches the lamp something fierce. Ships will think there are two lighthouses.
+
+## lightkeeper.player.leather
+Leather's sensible at sea. Floats better than steel. Dries worse.
+Good honest leather. Rub fish oil into it and the salt won't crack it. You'll smell, but you'll smell sensible.
+
+## lightkeeper.player.fire
+You're on fire! The sea's right there, {player}! Jump!
+Into the water, quick! And not near my oil store!
+
+## lightkeeper.player.damaged
+That's nearly worn through. Salt eats iron for breakfast out here.
+That's taken a beating. I've a whetstone and some oil, if you'd like to borrow them while you sit.

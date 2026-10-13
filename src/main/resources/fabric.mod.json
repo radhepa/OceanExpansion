@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "oceanexpansion",
+	"version": "${version}",
+	"name": "Ocean Expansion",
+	"description": "A Village Friends add-on that makes the sea worth exploring: ten rare sites. A lighthouse and its keeper, a Tidewatch sea fort, a smugglers' rock, a sunken treasure galleon, a whale fall, a drowned temple of the Old Tide, a pearl grotto, a diving bell with an air pocket, a ship frozen in an iceberg and the ember vents of the deep, with pearls, giant clams, sea glass, a storm glass and a diving helmet.",
+	"authors": ["minal"],
+	"contact": {
+		"sources": "https://github.com/radhepa/OceanExpansion"
+	},
+	"license": "MIT",
+	"icon": "assets/oceanexpansion/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.oceanexpansion.OceanExpansion"],
+		"client": ["dev.oceanexpansion.client.OceanExpansionClient"]
+	},
+	"mixins": [
+		"oceanexpansion.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"villagefriends": ">=2.29.0"
+	},
+	"suggests": {
+		"seafriends": "*",
+		"nsvmobs": "*",
+		"villagefriends_rpg": "*"
+	}
+}

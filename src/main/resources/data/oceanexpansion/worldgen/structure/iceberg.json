@@ -1,0 +1,76 @@
+{
+  "type": "oceanexpansion:site",
+  "biomes": "#oceanexpansion:has_site/iceberg",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "anchor": "surface",
+  "depth": {
+    "min": 10,
+    "max": 40
+  },
+  "flatness": 12,
+  "radius": 22,
+  "layouts": [
+    {
+      "weight": 3,
+      "pieces": [
+        {
+          "template": "oceanexpansion:iceberg/berg",
+          "x": 0,
+          "z": 0,
+          "y": -8,
+          "turn": 0,
+          "mode": "rigid",
+          "footing": false,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:iceberg/floe",
+          "x": -4,
+          "z": -19,
+          "y": -2,
+          "turn": 0,
+          "mode": "surface",
+          "footing": false,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:iceberg/growler",
+          "x": -17,
+          "z": 10,
+          "y": -5,
+          "turn": 1,
+          "mode": "surface",
+          "footing": false,
+          "soft": false
+        }
+      ]
+    },
+    {
+      "weight": 2,
+      "pieces": [
+        {
+          "template": "oceanexpansion:iceberg/berg",
+          "x": 0,
+          "z": 0,
+          "y": -8,
+          "turn": 0,
+          "mode": "rigid",
+          "footing": false,
+          "soft": false
+        },
+        {
+          "template": "oceanexpansion:iceberg/floe",
+          "x": 16,
+          "z": 14,
+          "y": -2,
+          "turn": 1,
+          "mode": "surface",
+          "footing": false,
+          "soft": false
+        }
+      ]
+    }
+  ]
+}

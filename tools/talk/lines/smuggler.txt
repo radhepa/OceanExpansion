@@ -1,0 +1,391 @@
+# Smuggler: the Brine Brotherhood hands of a hollow sea stack ({place} = "the Brine", "Cutpurse Stack",
+# "the Hollow Tooth"... often starting with a lowercase "the", so never start a sentence with {place}).
+# Rogues, likeable, never cruel. No pronouns for any smuggler or the chief. {chief} (the chief's first name)
+# used sparingly.
+#
+# The chief falls back to these pools. The chief has its own greet, greet.stranger, greet.friend, chat.new,
+# chat, chat.close, past, night, work, joke, news, heart, held.pearl, held.gold and held.map; EVERY OTHER
+# POOL HERE IS ALSO SPOKEN BY THE CHIEF, so those must never mention "the chief" (use {chief}, which the
+# chief skips).
+#
+# SHARED COAST CANON (same in all five files): Tidewatch ("We keep the light", Tide Log, blue cord, Fort Hake
+# and its Lantern Shoot), lightkeepers (Lamp Log, Sea Charts with the truth in the margins, storm glass:
+# cloudy = rain, feathers = storm), Barnacle (every cat on the coast is named for the Golden Heron's ship's
+# cat), the Heron Gale and Captain Ysolde Marrow (the Heron's lamp, a coin for Ysolde), the Three-Day Blow,
+# Wexley ("An hour's air and a minute's sense", copper nails), Arvid Strand's Northward, the Old Tide's one
+# great eye ("don't stare back at the Eye"), merfolk reef towns and the one-eyed Prismari of the deep.
+#
+# BROTHERHOOD CANON:
+# - "No names on the water." On the rock you have a name; out on the water you're nobody.
+# - The Brine Articles: no names on the water; never douse a light; throw the cargo, not the crew; share the
+#   salt even; nothing that cries (no people, no stolen pets, no poison).
+# - Old Pepper: the founder, who ran a hold of pepper past three forts hidden under a boatload of mackerel,
+#   and wrote the first Articles on the back of a fish crate.
+# - Every Brotherhood boat is called the Maybe ("Whose boat?" "Maybe."). Ours broke up on the reef once; the
+#   cargo was thrown, the crew all came home.
+# - The Tidewatch are "the Candles": a nuisance, not an enemy; terrible soup. The keepers are honest; we
+#   leave eggs, honey and silk on lighthouse jetties and they never log our boats.
+# - Cant: "herring" = spices, "fish" = silk, "moons" = pearls, "a wet night" = a run.
+# - Lantern signals: two shorts and a long = all clear; a long and a long = Candles about.
+# - Sink-or-Swim: the dock dice game; the loser bails the sloop.
+# - The Chief's Kettle: the hollow in the rock that whistles at night.
+# - The Three-Day Blow: stuck in the stack a week, ate a whole fig cargo.
+# - Wexley owed the Brotherhood for a crate of brandy (written off, lost at sea). The Northward bought three
+#   barrels of the best brandy before it sailed, paid in full.
+# - The chief keeps the ledger "No Names on the Water" and half a chart to the Golden Heron's grave.
+# - The Brotherhood's Barnacle is a full member and has never paid its share.
+
+## smuggler.greet
+Well, well. Someone found our little rock. Come in, quick, before anybody sees you.
+Shh. Inside, inside. Welcome to {place}. You never saw it.
+Ahoy. If the Candles sent you, you're very lost. If they didn't, you're very welcome.
+Oh, a visitor! Do you like pepper? Silk? Not asking for any reason.
+Is it {time} already? Hard to tell in a cave. Welcome in.
+Name's {name}. On the rock, anyway. On the water I'm nobody at all.
+Welcome to the cove. Mind the rope bridge; it's held for years out of pure spite.
+Ah, a guest. Sit on a crate. Not that crate. That one's spoken for.
+Hello, {player}. Don't mind the smell. Half pepper, half seaweed, all honest work. Mostly.
+Ahoy! You've the look of someone who can keep a secret. Good. We've a few.
+Come in out of the spray. Wet cargo's ruined cargo, and you count as cargo till you're dry.
+A friendly face at {place}. Rarer than pearls in here.
+You found the way in? Don't tell anyone how. Especially not anyone in blue.
+Hello there. If anyone asks, this is a fishing cave. We fish. For silk.
+Welcome, welcome. The dice are out and the kettle's hot. Pick one.
+Oh good, you're not a Candle. Sit down; you're making the sloop nervous.
+
+## smuggler.greet.stranger
+Don't know you. That's fine. We don't know anybody; that's rather the point.
+A stranger in the cove. Keep your hands where I can see them and your voice where the Tidewatch can't hear it.
+Who sent you? Nobody? Good answer. That's the right answer.
+If you're lost, you've found the worst place to be lost and the best place to be found. Welcome.
+Stranger, eh? No names on the water. But you're on the rock now, so I'll let it slide.
+Hm. You've got honest eyes. Don't worry; nobody here holds that against you.
+First time on a smugglers' rock? Rule one: nobody here is a smuggler. Rule two: see rule one.
+
+## smuggler.greet.friend
+{player}! You're back. I saved you a fig. Possibly from the very crate the Candles are looking for.
+There's my favourite landlubber. Come in; the dice have missed you.
+Ah, a friend of the Brotherhood. I'd shout your name, but you know. The walls have gulls.
+Look who's here! Sit down. I've a new story and nobody else will listen to it twice.
+{player}! If I had a name on the water, I'd tell it to you. That's how much I like you.
+Back again? Good. The cove's too quiet when it's just us and the crates.
+Friend! Mind the third plank. I'd hate to fish you out again. Well, I wouldn't hate it. It was funny.
+
+## smuggler.greet.morning
+Morning? Already? We were out on the water till dawn. Talk quietly, please.
+Ugh, morning. Lovely for honest folk. Dreadful for smugglers who only got in at dawn.
+Morning, {player}. If anyone asks, I was asleep all night. Very soundly. Snoring, even.
+Morning. I've had two hours' sleep and three hours of salt in my ears. Go on, say something cheerful.
+Good morning. Have a biscuit. Breakfast here is whatever didn't sell.
+
+## smuggler.greet.evening
+Evening. Best time of day. The Candles get sleepy and the sea gets dark.
+Ah, evening. Tide's turning. Time to load the sloop.
+Evening, {player}. If you hear oars tonight, you didn't.
+Evening already? Somebody check the lantern up top. Two shorts and a long means all clear.
+Evening. Lovely sunset. Lovely darkness coming after it, lovelier still.
+
+## smuggler.greet.night
+Shh. Wet night tonight. That means a run. Talk quiet, walk quieter.
+Ahoy, night owl. You're up late for an honest person. Are you an honest person?
+Lanterns hooded, sails furled. Welcome to the busy hours, {player}.
+Out at night? Careful. Between the drowned and the Candles, the water's crowded.
+Ah, a fellow creature of the dark. Pull up a crate and keep your voice under the waves.
+
+## smuggler.chat
+No names on the water. On the rock you can call me {name}. Out there, I'm just a voice in a dark boat.
+The Brotherhood runs spices, silk and pearls. Pepper, cloves, cinnamon: things people want and the tax collectors want more.
+The Tidewatch? A nuisance. Nice enough folk, terrible soup, ask a lot of questions. We call them the Candles.
+Every Brotherhood boat is called the Maybe. The Candles hail us: "Whose boat?" And we call back: "Maybe." Never gets old.
+Old Pepper founded the Brotherhood, the story goes. Ran a hold full of pepper past three forts under a boatload of mackerel. The forts smelled fish and waved.
+We have rules, you know: the Brine Articles. No names on the water. Never douse a light. Throw the cargo, not the crew. Share the salt even. Nothing that cries.
+Never douse a light. That's the oldest Article. Keepers don't take sides, and a dark lighthouse kills smugglers too.
+We leave the lighthouse keepers a little something on their jetty now and then: eggs, honey, a bolt of silk. They never ask who. Good folk, keepers.
+Lantern signals: two shorts and a long means all clear. A long and a long means the Candles are out. Three shorts means bring biscuits.
+In the trade we say "herring" for spices, "fish" for silk and "moons" for pearls. A boat full of fish and moons is a very good night.
+Our cat's called Barnacle, like every ship's cat on the coast, after the Golden Heron's. Ours is a full member of the Brotherhood. Hasn't paid its share once.
+We play Sink-or-Swim on the dock. Dice game. Loser bails the sloop. I'm very, very good at bailing.
+The sloop's faster than anything the Candles have, mostly because we actually look after it.
+Dry cargo goes up high in the rock. Wet cargo goes in nets under a buoy only we know. Nobody wants wet pepper.
+The cave echoes. You learn to whisper. Then you learn the cave whispers back, and you learn to stop listening.
+The best customers are inland folk who've never tasted cinnamon. You should see their faces. Worth more than the coin.
+We're not bad people. We just don't care to pay a tax on the colour of a shirt.
+A good smuggler knows the tides, the rocks, the moon and the Candles' supper hour. The last is the most important.
+The lookout at the top of the rock has the best view on the coast. You can see a Tidewatch sail a long way off. Very relaxing.
+Silk gets everywhere. I've found silk threads in my boots, my bread and once in the cat.
+The worst part of the job is the waiting. The second worst is the pepper sneezes. You can't sneeze on a night run.
+We buy pearls from divers, traders, the odd fisher. All fair. All very quiet.
+Rope bridges, rope ladders, rope everything. If heights scare you, a smugglers' rock is a bad hobby.
+People think smuggling is all adventure. It's mostly carrying heavy boxes up wet stairs in the dark.
+Fort Hake's never caught a Brotherhood boat. Too busy practising for that archery contest of theirs.
+If the Candles ever find this place, the plan is simple: everyone grabs one crate and swims. We've practised. Badly.
+There's a hollow up the rock where the wind whistles at night, like somebody humming over a pot. We call it the Chief's Kettle.
+You learn to read the sea in this trade: calm, choppy, the Candles' boat coming round the point. That last one is weather too.
+We don't run anything that cries, bleeds or poisons. Spice, cloth, pearls, the odd barrel of good brandy. Honest dishonesty.
+Salt's the one thing we never smuggle. No profit in it. The whole sea's giving it away.
+Ask {chief} about the ledger sometime. On second thought, don't. It's kept in a code that's unreadable on a bad day, even to its keeper.
+
+## smuggler.chat.new
+You'll want to know what this place is. It's a rock. With a cave. Where we keep things that aren't strictly ours. That's all.
+This is {place}. You found it, so either you're clever or the tide's being funny. Either way, welcome.
+If you're staying a bit: don't touch the crates, don't wake whoever's sleeping and don't mention us to anyone in blue.
+I'm {name}. That's my rock name. I don't have a water name; nobody does. That's the point.
+We're the Brine Brotherhood. Well, a little piece of it. Spices, silk, pearls. Nothing that hurts anybody but the tax collector.
+Don't look so worried. Smugglers are the nicest rogues you'll ever meet. We have rules and everything.
+
+## smuggler.chat.close
+{player}, if you ever need to vanish for a while, there's always a bunk at {place}. No questions. That's a promise.
+A secret: I keep a little stash of my own under the dock. For a rainy day. Now you know. Don't make me move it.
+You're a friend of the Brotherhood now, you know. That's rarer than a black pearl, and worth more.
+If the Candles ever catch me, I'll swear I've never met you. That's the nicest thing a smuggler can say.
+Honestly? Some nights I think about going straight. Then I think of the Candles' faces when we slip past, and I don't.
+Here. A pinch of saffron. Worth its weight in gold. Put it in your stew and think of me.
+You're the one person I'd tell my real home village to. I haven't yet. But I would. That's something.
+
+## smuggler.past
+In the Three-Day Blow we were stuck in the stack for a week and ate a whole cargo of figs. Worth a fortune. Tasted like one, too.
+I've been chased by the Candles more times than I've had hot dinners. Caught once. Talked my way out. They're nicer than they look.
+Old Wexley, the diving bell fellow, owed the Brotherhood for a crate of brandy. We've written it off. Lost at sea, like him.
+The Northward bought three barrels of our best brandy before it sailed north. Paid in full, on the nail. Most honest customer we ever had, and look where it got them.
+I once hid a whole bolt of silk inside a hollow mast while a Tidewatch knight leaned on it, chatting about the weather.
+My first run, I was so nervous I rowed us in a perfect circle. Twice. The others still call it "the grand tour."
+We ran pepper past a lighthouse once with the beam right on us. The keeper waved. We waved back. Nobody logged anything. Good keeper.
+One night the fog was so thick we tied up to a Tidewatch boat by mistake. Very awkward. Very polite. Very quiet goodbye.
+Before the Brotherhood I did honest work, mostly. It paid in calluses.
+The night our old Maybe broke up on the reef, we threw the cargo and kept the crew, like the Articles say. Every one of us came home. That's when I knew this lot was family.
+I learned the tides from an old Brotherhood hand who could tell the hour by the smell of the seaweed. Never wrong. Never washed, either.
+I once found a coin on the beach with a heron stamped on it. Spent it on a pie. I've regretted that pie for years.
+
+## smuggler.night
+Night's when the real work happens. Quiet oars, hooded lanterns, and somebody always trying not to sneeze.
+See the lighthouse out there? We steer by it. Never douse a light; it keeps us off the rocks as much as anyone.
+On dark nights the drowned come up and the Candles stay in. The trick is meeting neither.
+Listen. Hear that? Oars, out past the point. Probably fishers. Probably.
+The night air in this cove smells of salt and pepper. Well. Mostly pepper.
+Some nights there's a gold glow far out under the waves. Old hands say it's the Golden Heron's lamp, with Ysolde Marrow still aboard. We row around it.
+I love the hour before dawn, when the sloop's back, the cargo's stowed and nobody got caught. Best feeling in the world.
+
+## smuggler.work
+Crates up, crates down, crates in, crates out. Smuggling is mostly a lot of crates.
+Every crate gets a mark only the Brotherhood can read: a knot, a notch, a smudge of tar. The Candles have been trying to read them for years.
+Wet nights we row the cargo out to the buoys in the dark. Dry nights we stack it high in the rock. Every night we count it twice.
+Pepper sneezes are the enemy. You learn to sneeze into your elbow, silently, in a boat, in the dark. It's a skill.
+We patch the sloop's sails ourselves. Patches on patches. If the Candles ever see it in daylight, they'll laugh themselves into the sea.
+Watching for sails is half the job. The lookout up top can spot a Tidewatch boat before it spots us. Usually.
+Silk has to stay dry, spices have to stay sealed and pearls have to stay counted. Pearls walk off if you don't count them.
+The lantern up top talks to boats at sea. Two shorts and a long: all clear. A long and a long: Candles. Short, long, short: bring the cat in.
+Everything goes in the chief's ledger, every crate and every coin. No names, of course. Just marks.
+Hiding cargo is an art: under fish, inside loaves, in a hollow plank. Once we hid cinnamon in a Tidewatch officer's hat. Long story.
+The trick to unloading is speed and silence. The trick to loading is not dropping crates on your foot. I'm still working on that one.
+We sell to inland traders, river barges, and a baker who doesn't ask questions. The baker gets the best cinnamon. Look after your bakers.
+Every coin's split fair. Share the salt even, says the Article. Nobody here's ever been short-changed. Not even the cat.
+Scraping barnacles off the sloop's hull. Not glamorous. Necessary. Barnacles slow you down, and slow gets you caught.
+
+## smuggler.adventure
+Want treasure? Everyone says the Golden Heron's still out there with a hold full of gold. Mind the drowned on it; they're not the bargaining kind.
+{chief} keeps half a chart to the Golden Heron, locked up tight. The other half is somewhere at the bottom of the sea.
+If you go diving, mind the drowned. They're worse round the wrecks, and they don't take bribes. We've tried.
+There's a pearl divers' grotto somewhere in the warm shallows, clams big as barrels. Find it, and we'll buy the pearls. Fair price. Mostly.
+Old Tide ruins have a great eye carved on them. Don't stare back at it. Don't take anything off the altar. Or do, just don't tell me.
+The Northward's up north, locked in ice, with our brandy still aboard. If you find it, raise a cup to Arvid Strand for us.
+Smart adventurers carry two things: a light and a way out. Smart smugglers carry three: a light, a way out and a story.
+Wexley's diving bell is out there somewhere. He used to say "an hour's air and a minute's sense." Take both.
+Going far? Buy a chart from a lighthouse keeper. Best maps on the coast. We'd know; we've bought plenty under false names.
+The deep water's where the strange things are: bones, ruins, places that glow. Everything worth finding is further than you want to swim.
+
+## smuggler.joke
+What's a smuggler's favourite fish? The one with silk inside it.
+How many smugglers does it take to light a lantern? None. Lanterns get you caught.
+A Candle asked me if I was a smuggler. I said, "Maybe." They said that wasn't an answer. I said it was the name of my boat.
+Why don't smugglers play hide and seek? Too easy. Nobody ever finds us. Well, nearly nobody.
+The Tidewatch searched our sloop once and found nothing but fish. We were so proud of that fish.
+What do you call a smuggler who sneezes on a night run? Caught.
+Barnacle the cat is the best smuggler of us all. Steals fish under the Candles' noses, and they give it a rank.
+What's the difference between a Candle and a candle? You can blow out a candle.
+I told a lighthouse keeper a secret once. Now it's in the Lamp Log, filed under "weather."
+Why did the smuggler take a ladder on the boat? The cargo was high quality.
+Our ledger-keeper keeps two ledgers: one with no names and one with no numbers. Very secure.
+
+## smuggler.news
+The Candles have a new boat. Faster. Uglier. We'll have to be cleverer, or at least quieter.
+Lost a crate of silk off the reef last night. It'll wash up against some Tidewatch wall. Some warden's going to have very nice socks.
+Pepper's up inland. Silk's down. Pearls are always up.
+The sloop sprang a leak. Somebody bailed with a hat. Somebody's hat is ruined.
+A Tidewatch patrol passed close yesterday and sniffed the air. We were all very busy being rocks.
+We left a basket of eggs on a lighthouse jetty last week. This week the basket's back on our dock with a jar of honey in it. Lovely.
+Barnacle the cat had a fight with a gull and lost. We're not to mention it.
+Word on the water is Fort Hake's archers are practising every night. Good. Busy archers don't watch the sea.
+The storm glass we bought off a keeper is clouding up. Rain soon. Good for running cargo, bad for pepper.
+Somebody saw longboats past the point. Not ours, not the Candles'. Raiders, maybe. We'll lie low. Even smugglers hate raiders.
+
+## smuggler.heart
+People think we're greedy. Most of us just wanted something more than a fishing boat and the same three streets forever.
+The Brotherhood's family. We argue, we cheat at dice, we share everything. That's family.
+Throw the cargo, not the crew. That Article's saved my life twice. I'd keep it even if it cost me everything.
+Some nights I lie in my bunk listening to the sea in the cave and think: I'm lucky. Strange life, but lucky.
+I've never hurt anybody, and I don't mean to start. The only thing I steal is the tax collector's sleep.
+If I had a name on the water, I'd want it to be something kind. Since I don't, I just try to be kind.
+My folks think I'm a fisher. I suppose I am. I catch silk.
+The lighthouse keepers have never once logged our boats. I don't know why. I hope one day I can thank one properly.
+The sea gives and the sea takes. I just stand in between and take a small cut.
+
+## smuggler.rumor
+Word on the water is there's {rumor_name}, out {rumor_dir}, {rumor_dist}.
+A fisher we, ah, do business with swears there's {rumor_name} to the {rumor_dir}. Worth a look, if you're the looking sort.
+Out {rumor_dir}, {rumor_dist}, there's {rumor_name}, they say. Never had the time. Too busy not being caught.
+Here's a rumour for nothing at all: {rumor_name}, {rumor_dir} of the rock. You didn't hear it here.
+The lookout's seen strange lights {rumor_dir} of here. Old hands say it's {rumor_name}.
+After adventure? Sail {rumor_dir}. There's {rumor_name} out that way, {rumor_dist}.
+Somebody in the Brotherhood swears they rowed past {rumor_name}, out {rumor_dir}. They also swore they'd pay back my loan. I half believe them.
+A keeper's chart we, er, borrowed marks {rumor_name} somewhere {rumor_dir}. The keepers are never wrong. Annoying, really.
+They say there's {rumor_name} out {rumor_dir}. If there's treasure there, the Brotherhood would like first refusal.
+Talk on the dock: {rumor_name}, out {rumor_dir}, {rumor_dist}. The dice say you should go. I loaded the dice, but still.
+
+## smuggler.rumor.none
+No rumours worth the salt right now. The sea's gone quiet, and quiet's bad for business.
+Nothing on the water lately but fish, Candles and weather. Ask me after the next run.
+Word on the dock is there's no word. Rare, that.
+If I knew of anything good nearby, I'd have pinched it already. So, no.
+
+## smuggler.seafolk
+A merfolk trader once swapped me a handful of pearls for a jar of cinnamon. Best deal I ever made, and I think the merfolk thought the same.
+Merfolk laugh at our sloop. I've seen them bob up by the hull, giggling. I don't know what's funny about it. Everything, apparently.
+There's a rule in the Brotherhood: we don't cheat the merfolk. They know every rock and current, and an angry merfolk can sink you just by not mentioning a reef.
+The Prismari, now, they're another matter. Tall, spined, one great eye, way down in the deep. Never seen one. Never want to. Well. Maybe once.
+Old hands say the Prismari built the monuments, those sea-stone halls full of guardians. Same eye as on the Old Tide ruins. Funny, that.
+A merfolk child once followed our sloop all night, curious, and kept quiet the whole run. Best lookout we ever had.
+I hear the merfolk have whole towns of coral, lit up like a market at night. Imagine the trade. Imagine a tax collector trying to swim there.
+If you ever see a single green light deep under your boat, it's polite to row away. A Prismari, some say. They don't like being stared at.
+The merfolk know where all the wrecks are. Ask nicely and bring something sweet, and you might get a hint. Or a fish in the face. Depends on the merfolk.
+
+## smuggler.held.pickaxe
+A pickaxe! Carving us a new room? The bunk room's crowded and somebody snores.
+Careful with that in here. One wrong swing and the cove becomes a lot more sea and a lot less cove.
+
+## smuggler.held.sword
+Put that away, friend. We're all very friendly here. Nobody needs poking.
+Nice blade. Ever thought of selling it? I know a buyer. No names, of course.
+
+## smuggler.held.axe
+An axe! The dock could use new planks. The old ones have opinions.
+Careful with that near the ropes. Everything here's held up by rope and hope.
+
+## smuggler.held.shovel
+A shovel. Burying treasure or digging it up? Either way, I want in.
+Dig on our beach and you'll find nothing. Definitely nothing. Move along from that spot, please.
+
+## smuggler.held.bow
+A bow? You're not a Tidewatch archer in disguise, are you? No? Good. It'd be a terrible disguise.
+Nice bow. The Candles have archers who can hit a bottle at sixty paces. We keep our bottles indoors.
+
+## smuggler.held.shield
+A shield, eh? Expecting trouble? In here? Never. Well. Rarely.
+That would block a Tidewatch arrow nicely. Hypothetically.
+
+## smuggler.held.torch
+Easy with the light! Lanterns stay hooded in here. We don't want the whole sea knowing where we are.
+Careful near the pepper. Pepper burns, and then everyone sneezes for a week.
+
+## smuggler.held.ore
+Is that {item}? Raw goods. We don't run that; too heavy, not enough profit. Pepper's lighter.
+Metal, eh? Heavy cargo sinks boats. First thing you learn in this trade.
+
+## smuggler.held.diamond
+A diamond! Don't wave that about, friend. Some of us have very weak wills.
+That's a pretty rock. I know a buyer. No names. Very good price. Did I say no names?
+
+## smuggler.held.gold
+Gold! You smell like a run gone right. Is it off the Golden Heron? You can tell me.
+Shiny. Drop a coin for Ysolde when you pass deep water. Even smugglers do that.
+
+## smuggler.held.emerald
+Emeralds! Now we're talking. What are you after? Silk? Cinnamon? A favour?
+Lovely green. I could get you a bolt of silk for that, and nobody need know.
+
+## smuggler.held.food
+Is that {item}? Real food? We've been living on biscuit and figs. I'm begging, but stylishly.
+Food! Don't let Barnacle see. That cat's the best thief in the Brotherhood.
+
+## smuggler.held.map
+A map! One of the keepers' charts? We, ah, borrow those sometimes. Very good charts.
+Let's see. Hm. That's not where the reef is. Whoever drew that never ran cargo past it in the dark.
+
+## smuggler.held.compass
+A compass. Handy. Mostly we steer by the lighthouses. Never douse a light, eh?
+Keep it dry. A wet compass got a whole run lost once. We fetched up at a Tidewatch fort. Awkward.
+
+## smuggler.held.book
+A book? Not a ledger, I hope. A ledger with names in it is a dangerous thing.
+I like a good book. Something with pirates in it. Proper pirates, not like us. We're polite.
+
+## smuggler.held.tnt
+Not in the cove! Not near the pepper! Not near me!
+Is that for opening a vault? I don't want to know. I want to know a little. No. I don't want to know.
+
+## smuggler.held.potion
+A potion! If it makes you invisible, I'll give you half a crate of silk for it.
+What's that, then? Brandy? No? Pity.
+
+## smuggler.held.flower
+A flower! Nothing grows on this rock but moss and bad ideas. It's lovely.
+Pretty. You know some flowers sell for more than spices inland? Don't give me ideas.
+
+## smuggler.held.bucket
+A bucket! The sloop's leaking again. Want to help? It pays in figs.
+Handy, that. Half of smuggling is bailing.
+
+## smuggler.held.trident
+A trident! Took that off a drowned? Brave. They don't give those up easily.
+Pretty weapon. Sells well, too; collectors love them. No names, of course.
+
+## smuggler.held.fishing_rod
+A fishing rod! Perfect. If the Candles come by, you're our proof we're all fishers here.
+Catch anything good? Silk? Pearls? No? Just fish? Ah, well. Fish is fine.
+
+## smuggler.held.shell
+Pretty shell. Shells like that come from deep water. The merfolk find them, I hear.
+From the deep, that. I know a collector who'd pay well. Very well. No names.
+
+## smuggler.held.pearl
+A pearl! That's a moon, as we say. Selling? We pay fair. Fairer than the Candles would, anyway.
+Lovely pearl. Hold it up to the lantern. See that shine? That's what keeps the Brotherhood in business.
+
+## smuggler.held.fish
+Fish! Perfect cover. Carry that onto a boat and nobody looks underneath.
+Fresh fish. Barnacle will follow you everywhere now. That cat's got a nose.
+
+## smuggler.held.boat
+A boat! Faster than ours? Hm. Selling? We'd paint it dark and call it the Maybe.
+Nice little boat. You could run a few crates in that. Not that I'm suggesting anything.
+
+## smuggler.held.spyglass
+A spyglass! Up at the lookout, that's worth more than gold. Lend it to me? Just for one night. Or every night.
+Point that at the horizon and tell me if you see any blue sails. No? Good. Lovely.
+
+## smuggler.player.hurt
+You're bleeding on the dock. Sit down. We've bandages. Well, it's silk, but it'll do.
+Ouch, friend. Have a drop of brandy. Medicinal. Very medicinal.
+
+## smuggler.player.hungry
+You look starved. Have some figs. We've crates of them. Don't ask.
+Hungry? Have a biscuit. Hard as the rock, but honest. The only honest thing in here.
+
+## smuggler.player.unarmored
+No armour? Bold. A bit like us: travel light, travel fast.
+You're dressed for a quick getaway. I respect that.
+
+## smuggler.player.diamond
+Diamond armour! Fall off the dock in that and you'll sink faster than a stolen anchor.
+Look at that shine. You'd never slip past the Candles in that. They'd see you from two forts away.
+
+## smuggler.player.leather
+Leather! Sensible. Quiet, too. Good for sneaking.
+Nice leather. You'd fit right in on a night run.
+
+## smuggler.player.fire
+You're on fire! The sea's right there, jump! Not on the pepper!
+Fire! Water! Sea! Go!
+
+## smuggler.player.damaged
+That's about to break. We've a whetstone somewhere. Behind the pepper. Or under the silk.
+Your gear's in a bad way. You fight drowned with that? Brave, or broke.
